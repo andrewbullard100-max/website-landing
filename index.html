@@ -124,7 +124,10 @@ nav{
 .nav-links a{color:rgba(255,255,255,.82);font-size:15px;font-weight:500;text-decoration:none;transition:color .2s}
 .nav-links a:first-child{color:var(--gold)}
 .nav-links a:hover{color:var(--gold)}
-.btn-nav{padding:14px 24px;background:linear-gradient(135deg,#e7bd52,#c99424);color:#081a2b!important;border-radius:7px;font-weight:800!important;box-shadow:0 8px 24px rgba(201,168,76,.18)}
+.nav-actions{display:flex;align-items:center;gap:14px;flex-shrink:0}
+.nav-signin{padding:10px 4px;color:rgba(255,255,255,.82);font-size:14px;font-weight:700;text-decoration:none;white-space:nowrap}
+.nav-signin:hover{color:var(--gold)}
+.btn-nav{padding:14px 24px;background:linear-gradient(135deg,#e7bd52,#c99424);color:#081a2b!important;border-radius:7px;font-weight:800!important;box-shadow:0 8px 24px rgba(201,168,76,.18);white-space:nowrap}
 .hero-outer{background:transparent}
 .hero{
   position:relative;z-index:2;min-height:700px;width:min(1320px,100%);margin:0 auto;
@@ -174,7 +177,7 @@ nav{
 .issue-main{font-size:13px;font-weight:700}.issue-sub{font-size:11px;color:rgba(255,255,255,.45);margin-top:3px}.issue-pill{padding:4px 9px;border-radius:12px;font-size:11px}.pill-red{background:rgba(255,70,70,.18);color:#ff5c5c}.pill-green{background:rgba(76,180,92,.18);color:#83d276}.issue-arrow{color:rgba(255,255,255,.55)}
 .report-link{display:block;text-align:center;margin-top:14px;padding:13px;background:rgba(255,255,255,.055);border-radius:8px;color:#fff;text-decoration:none;font-size:13px;font-weight:700}
 @media(max-width:1000px){.brand-shield{width:112px;height:132px}.brand-name{letter-spacing:-3px}.brand-tagline{letter-spacing:2.6px}.hero{grid-template-columns:1fr;gap:45px}.hero-left{max-width:760px;margin:auto;text-align:center}.hero-sub{margin-left:auto;margin-right:auto}.hero-ctas{justify-content:center}.hero-proof{max-width:720px;margin:0 auto}.score-card{max-width:760px;margin:0 auto}}
-@media(max-width:720px){.brand-banner{min-height:150px;padding:20px 3%}.brand-lockup{gap:12px}.brand-shield{width:72px;height:86px}.brand-name{font-size:clamp(37px,11vw,62px);letter-spacing:-2px}.brand-tagline{font-size:8px;letter-spacing:1.2px;gap:7px;margin-top:11px}.brand-tagline::before,.brand-tagline::after{width:12px}.nav-inner{justify-content:center}.nav-links{gap:18px;overflow-x:auto;padding:0 4px}.nav-links a{font-size:12px;white-space:nowrap}.btn-nav{padding:10px 13px}.hero{padding:44px 5% 55px}.hero-proof{grid-template-columns:repeat(3,1fr);row-gap:24px}.hero-proof-stat:nth-child(3){border-right:0}.sc-metrics{grid-template-columns:repeat(2,1fr)}.issue-row{grid-template-columns:42px 1fr auto 12px}.issue-thumb{width:42px;height:36px}}
+@media(max-width:720px){.brand-banner{min-height:150px;padding:20px 3%}.brand-lockup{gap:12px}.brand-shield{width:72px;height:86px}.brand-name{font-size:clamp(37px,11vw,62px);letter-spacing:-2px}.brand-tagline{font-size:8px;letter-spacing:1.2px;gap:7px;margin-top:11px}.brand-tagline::before,.brand-tagline::after{width:12px}.nav-inner{justify-content:space-between;gap:10px}.nav-links{display:none}.nav-actions{gap:8px}.nav-signin{font-size:12px;padding:8px 4px}.btn-nav{padding:10px 12px;font-size:12px}.hero{padding:44px 5% 55px}.hero-proof{grid-template-columns:repeat(3,1fr);row-gap:24px}.hero-proof-stat:nth-child(3){border-right:0}.sc-metrics{grid-template-columns:repeat(2,1fr)}.issue-row{grid-template-columns:42px 1fr auto 12px}.issue-thumb{width:42px;height:36px}}
 
 
 /* ─── GOLD RULE ───────────────────────── */
@@ -575,7 +578,10 @@ footer{
       <div class="nav-links">
         <a href="#features">Features</a><a href="#how-it-works">How It Works</a><a href="#pricing">Pricing</a><a href="#about">About Us</a><a href="#contact">Contact</a>
       </div>
-      <a href="https://app.foodsafeiq.com" class="btn-nav">Launch App →</a>
+      <div class="nav-actions">
+        <a href="https://app.foodsafeiq.com" class="nav-signin">Sign In</a>
+        <a href="https://app.foodsafeiq.com" class="btn-nav">Start Free Trial →</a>
+      </div>
     </div>
   </nav>
   <div class="hero-outer">
@@ -584,7 +590,7 @@ footer{
         <div class="hero-eyebrow"><span class="hero-eyebrow-dot"></span>Pilot Program Open</div>
         <h1>Your Reputation<br/>Depends on <em>Their Score.</em></h1>
         <p class="hero-sub">FoodSafe IQ is visual compliance software for multi-unit foodservice — AI-powered food safety auditing that helps you catch violations before inspectors do. Protect your brand. Standardize compliance. Operate with confidence.</p>
-        <div class="hero-ctas"><a href="https://app.foodsafeiq.com" class="btn-primary">Launch the App →</a><a href="#how-it-works" class="btn-ghost">See How It Works</a></div>
+        <div class="hero-ctas"><a href="https://app.foodsafeiq.com" class="btn-primary">Start Free 14-Day Trial →</a><a href="#how-it-works" class="btn-ghost">See How It Works</a></div>
         <div class="hero-proof">
           <div class="hero-proof-stat"><svg class="hero-proof-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 7h3l2-3h6l2 3h3v12H4z"/><circle cx="12" cy="13" r="4"/></svg><div class="hero-proof-n">AI Visual<br/>Audits</div></div>
           <div class="hero-proof-stat"><svg class="hero-proof-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3 4 6v5c0 5 3.4 8.4 8 10 4.6-1.6 8-5 8-10V6z"/><path d="m8 12 2.5 2.5L16 9"/></svg><div class="hero-proof-n">Prevent<br/>Violations</div></div>
@@ -821,7 +827,7 @@ footer{
     <div>
       <span class="section-label">About FoodSafe IQ</span>
       <h2 class="section-title">Built for operators. Powered by AI.</h2>
-      <p class="section-body">FoodSafe IQ is an AI-powered food safety compliance platform built by Bullard Consulting Services, a Nashville, Tennessee food safety consulting practice. We built this platform to solve the problems operators face every day — inconsistent documentation, slow corrective action cycles, and compliance programs that live in someone's notebook instead of a system that works around the clock.</p>
+      <p class="section-body">FoodSafe IQ is an AI-powered food safety compliance platform created by Andrew Bullard, MBA, CDM-CFPP, through Bullard Consulting Services in Nashville, Tennessee. Built from firsthand foodservice operations experience, the platform addresses problems operators face every day: inconsistent documentation, slow corrective-action cycles, and compliance programs trapped in notebooks instead of a system that works around the clock.</p>
       <br/>
       <p class="section-body">Our platform uses photo-based AI analysis and a comprehensive inspection checklist to surface violations before your next third-party audit or the health department does — and designed to run on the same phone you already carry into every walk-in.</p>
     </div>
@@ -928,13 +934,13 @@ footer{
     <a href="#ai-data-use">AI Data Use</a>
     <a href="/privacy.html">Privacy Policy</a>
     <a href="/terms.html">Terms of Service</a>
-    <a href="https://app.foodsafeiq.com">Launch App</a>
+    <a href="https://app.foodsafeiq.com">Sign In</a>
   </div>
   <div class="footer-copy">© 2026 FoodSafe IQ · A Bullard Consulting Services product. All rights reserved.</div>
 </footer>
 
 <script>
-// GA4 event tracking on primary conversion CTAs (Launch App / Start Free Trial)
+// GA4 event tracking on primary conversion CTAs (Start Free Trial / Sign In)
 document.querySelectorAll('a[href="https://app.foodsafeiq.com"]').forEach(function(el){
   el.addEventListener('click', function(){
     if(typeof gtag==='function'){
