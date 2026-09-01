@@ -36,6 +36,46 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://foodsafeiq.com/states-georgia.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://foodsafeiq.com/states-florida.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://foodsafeiq.com/states-north-carolina.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://foodsafeiq.com/states-south-carolina.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://foodsafeiq.com/states-alabama.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://foodsafeiq.com/states-kentucky.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://foodsafeiq.com/states-arkansas.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://foodsafeiq.com/states-louisiana.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://foodsafeiq.com/privacy.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
