@@ -3,6 +3,13 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WL7SXWY1RY"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-WL7SXWY1RY');
+</script>
 <title>FoodSafe IQ — Visual Compliance. Smarter Food Safety.</title>
 <meta name="description" content="AI-powered food safety auditing for multi-unit operators. Visual compliance, smarter food safety. Catch violations before your next third-party audit does."/>
 <link rel="canonical" href="https://foodsafeiq.com/"/>
@@ -921,6 +928,18 @@ footer{
 </footer>
 
 <script>
+// GA4 event tracking on primary conversion CTAs (Launch App / Start Free Trial)
+document.querySelectorAll('a[href="https://app.foodsafeiq.com"]').forEach(function(el){
+  el.addEventListener('click', function(){
+    if(typeof gtag==='function'){
+      gtag('event','cta_click',{
+        cta_label: el.textContent.trim(),
+        cta_location: (el.closest('section')||{}).id || 'nav_or_footer'
+      });
+    }
+  });
+});
+
 // NAV shadow on scroll
 window.addEventListener('scroll',()=>{
   document.getElementById('main-nav').style.boxShadow =
@@ -939,6 +958,7 @@ function submitContact(e){
   if(!name||!email){
     el.className='cf-err';el.textContent='Please enter your name and email address.';el.style.display='block';return;
   }
+  if(typeof gtag==='function'){gtag('event','generate_lead',{form_id:'contact'});}
   btn.disabled=true;btn.textContent='Sending…';
   const fd=new FormData();
   fd.append('form-name','contact');fd.append('name',name);
