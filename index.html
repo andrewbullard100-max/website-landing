@@ -580,7 +580,7 @@ footer{
       </div>
       <div class="nav-actions">
         <a href="https://app.foodsafeiq.com" class="nav-signin">Sign In</a>
-        <a href="https://app.foodsafeiq.com" class="btn-nav">Start Free Trial →</a>
+        <a href="https://app.foodsafeiq.com/?signup=1" class="btn-nav">Start Free Trial →</a>
       </div>
     </div>
   </nav>
@@ -590,7 +590,7 @@ footer{
         <div class="hero-eyebrow"><span class="hero-eyebrow-dot"></span>Pilot Program Open</div>
         <h1>Your Reputation<br/>Depends on <em>Their Score.</em></h1>
         <p class="hero-sub">FoodSafe IQ is visual compliance software for multi-unit foodservice — AI-powered food safety auditing that helps you catch violations before inspectors do. Protect your brand. Standardize compliance. Operate with confidence.</p>
-        <div class="hero-ctas"><a href="https://app.foodsafeiq.com" class="btn-primary">Start Free 14-Day Trial →</a><a href="#how-it-works" class="btn-ghost">See How It Works</a></div>
+        <div class="hero-ctas"><a href="https://app.foodsafeiq.com/?signup=1" class="btn-primary">Start Free 14-Day Trial →</a><a href="#how-it-works" class="btn-ghost">See How It Works</a></div>
         <div class="hero-proof">
           <div class="hero-proof-stat"><svg class="hero-proof-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 7h3l2-3h6l2 3h3v12H4z"/><circle cx="12" cy="13" r="4"/></svg><div class="hero-proof-n">AI Visual<br/>Audits</div></div>
           <div class="hero-proof-stat"><svg class="hero-proof-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3 4 6v5c0 5 3.4 8.4 8 10 4.6-1.6 8-5 8-10V6z"/><path d="m8 12 2.5 2.5L16 9"/></svg><div class="hero-proof-n">Prevent<br/>Violations</div></div>
@@ -777,25 +777,25 @@ footer{
             <td><span class="pt-locs">1 – 5 locations</span></td>
             <td><span class="pt-price">$79</span><span class="pt-mo">/mo</span></td>
             <td class="pt-per">up to $395/mo total</td>
-            <td><a href="https://app.foodsafeiq.com" class="pt-btn">Start Free Trial</a></td>
+            <td><a href="https://app.foodsafeiq.com/?signup=1" class="pt-btn">Start Free Trial</a></td>
           </tr>
           <tr class="pt-featured">
             <td><span class="pt-locs">6 – 10 locations <span class="pt-badge">15% OFF</span></span></td>
             <td><span class="pt-price">$67</span><span class="pt-mo">/mo</span></td>
             <td class="pt-per">up to $671/mo total</td>
-            <td><a href="https://app.foodsafeiq.com" class="pt-btn pt-btn-gold">Start Free Trial</a></td>
+            <td><a href="https://app.foodsafeiq.com/?signup=1" class="pt-btn pt-btn-gold">Start Free Trial</a></td>
           </tr>
           <tr>
             <td><span class="pt-locs">11 – 20 locations <span class="pt-badge">25% OFF</span></span></td>
             <td><span class="pt-price">$59</span><span class="pt-mo">/mo</span></td>
             <td class="pt-per">up to $1,185/mo total</td>
-            <td><a href="https://app.foodsafeiq.com" class="pt-btn">Start Free Trial</a></td>
+            <td><a href="https://app.foodsafeiq.com/?signup=1" class="pt-btn">Start Free Trial</a></td>
           </tr>
           <tr>
             <td><span class="pt-locs">21 – 50 locations <span class="pt-badge">35% OFF</span></span></td>
             <td><span class="pt-price">$51</span><span class="pt-mo">/mo</span></td>
             <td class="pt-per">up to $2,568/mo total</td>
-            <td><a href="https://app.foodsafeiq.com" class="pt-btn">Start Free Trial</a></td>
+            <td><a href="https://app.foodsafeiq.com/?signup=1" class="pt-btn">Start Free Trial</a></td>
           </tr>
           <tr class="pt-enterprise">
             <td><span class="pt-locs">50+ locations</span></td>
@@ -941,7 +941,7 @@ footer{
 
 <script>
 // GA4 event tracking on primary conversion CTAs (Start Free Trial / Sign In)
-document.querySelectorAll('a[href="https://app.foodsafeiq.com"]').forEach(function(el){
+document.querySelectorAll('a[href^="https://app.foodsafeiq.com"]').forEach(function(el){
   el.addEventListener('click', function(){
     if(typeof gtag==='function'){
       gtag('event','cta_click',{
