@@ -1,0 +1,120 @@
+# Keep every public page on one canonical host and one clean URL.
+[[redirects]]
+from = "https://www.foodsafeiq.com/*"
+to = "https://foodsafeiq.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "/index.html"
+to = "/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/pricing.html"
+to = "/pricing"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog.html"
+to = "/blog"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog-multi-unit-food-safety-compliance-guide.html"
+to = "/blog-multi-unit-food-safety-compliance-guide"
+status = 301
+force = true
+
+[[redirects]]
+from = "/solutions-higher-education.html"
+to = "/solutions-higher-education"
+status = 301
+force = true
+
+[[redirects]]
+from = "/solutions-healthcare-dining.html"
+to = "/solutions-healthcare-dining"
+status = 301
+force = true
+
+[[redirects]]
+from = "/vs-jolt.html"
+to = "/vs-jolt"
+status = 301
+force = true
+
+[[redirects]]
+from = "/vs-crunchtime.html"
+to = "/vs-crunchtime"
+status = 301
+force = true
+
+[[redirects]]
+from = "/vs-fooddocs.html"
+to = "/vs-fooddocs"
+status = 301
+force = true
+
+[[redirects]]
+from = "/states-alabama.html"
+to = "/states-alabama"
+status = 301
+force = true
+
+[[redirects]]
+from = "/states-arkansas.html"
+to = "/states-arkansas"
+status = 301
+force = true
+
+[[redirects]]
+from = "/states-florida.html"
+to = "/states-florida"
+status = 301
+force = true
+
+[[redirects]]
+from = "/states-georgia.html"
+to = "/states-georgia"
+status = 301
+force = true
+
+[[redirects]]
+from = "/states-kentucky.html"
+to = "/states-kentucky"
+status = 301
+force = true
+
+[[redirects]]
+from = "/states-louisiana.html"
+to = "/states-louisiana"
+status = 301
+force = true
+
+[[redirects]]
+from = "/states-north-carolina.html"
+to = "/states-north-carolina"
+status = 301
+force = true
+
+[[redirects]]
+from = "/states-south-carolina.html"
+to = "/states-south-carolina"
+status = 301
+force = true
+
+[[redirects]]
+from = "/privacy.html"
+to = "/privacy"
+status = 301
+force = true
+
+[[redirects]]
+from = "/terms.html"
+to = "/terms"
+status = 301
+force = true

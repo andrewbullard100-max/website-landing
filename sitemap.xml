@@ -2,96 +2,115 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://foodsafeiq.com/</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/pricing.html</loc>
+    <loc>https://foodsafeiq.com/pricing</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/vs-jolt.html</loc>
+    <loc>https://foodsafeiq.com/vs-jolt</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/vs-crunchtime.html</loc>
+    <loc>https://foodsafeiq.com/vs-crunchtime</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/vs-fooddocs.html</loc>
+    <loc>https://foodsafeiq.com/vs-fooddocs</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/solutions-higher-education.html</loc>
+    <loc>https://foodsafeiq.com/solutions-higher-education</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/solutions-healthcare-dining.html</loc>
+    <loc>https://foodsafeiq.com/solutions-healthcare-dining</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/states-georgia.html</loc>
+    <loc>https://foodsafeiq.com/states-georgia</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/states-florida.html</loc>
+    <loc>https://foodsafeiq.com/states-florida</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/states-north-carolina.html</loc>
+    <loc>https://foodsafeiq.com/states-north-carolina</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/states-south-carolina.html</loc>
+    <loc>https://foodsafeiq.com/states-south-carolina</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/states-alabama.html</loc>
+    <loc>https://foodsafeiq.com/states-alabama</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/states-kentucky.html</loc>
+    <loc>https://foodsafeiq.com/states-kentucky</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/states-arkansas.html</loc>
+    <loc>https://foodsafeiq.com/states-arkansas</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/states-louisiana.html</loc>
+    <loc>https://foodsafeiq.com/states-louisiana</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/blog.html</loc>
+    <loc>https://foodsafeiq.com/blog</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/blog-multi-unit-food-safety-compliance-guide.html</loc>
+    <loc>https://foodsafeiq.com/blog-multi-unit-food-safety-compliance-guide</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/privacy.html</loc>
+    <loc>https://foodsafeiq.com/privacy</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://foodsafeiq.com/terms.html</loc>
+    <loc>https://foodsafeiq.com/terms</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
