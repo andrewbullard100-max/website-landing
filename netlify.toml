@@ -30,6 +30,12 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/blog-walk-in-cooler-door-overnight-near-miss.html"
+to = "/blog-walk-in-cooler-door-overnight-near-miss"
+status = 301
+force = true
+
+[[redirects]]
 from = "/solutions-higher-education.html"
 to = "/solutions-higher-education"
 status = 301
