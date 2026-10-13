@@ -10,31 +10,27 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-WL7SXWY1RY');
 </script>
-<title>Food Safety Software for Arkansas Restaurants — FoodSafe IQ</title>
-<meta name="description" content="AI-powered food safety auditing mapped to Arkansas's actual food code — every checklist item cited to Arkansas Department of Health (ADH)'s real regulation, not a generic FDA template."/>
+<title>Arkansas Food Code Guide: Restaurant Inspections, Risk Categories &amp; Compliance — FoodSafe IQ</title>
+<meta name="description" content="Complete guide to Arkansas's food safety inspection system: ADH risk categories, how violations are cited with code references, what Category 2 (Medium) means for most restaurants, and the most common findings."/>
 <link rel="canonical" href="https://foodsafeiq.com/states-arkansas"/>
 <link rel="icon" type="image/png" href="apple-touch-icon.png"/>
 <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
-
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="FoodSafe IQ"/>
-<meta property="og:title" content="Food Safety Software for Arkansas Restaurants — FoodSafe IQ"/>
-<meta property="og:description" content="AI-powered food safety auditing mapped to Arkansas's actual food code, cited to Arkansas Department of Health (ADH)'s real regulation."/>
+<meta property="og:title" content="Arkansas Food Code Guide: Restaurant Inspections, Risk Categories &amp; Compliance"/>
+<meta property="og:description" content="How the Arkansas Department of Health inspects restaurants, what risk categories mean for inspection frequency, and how violations are cited with regulatory code references."/>
 <meta property="og:url" content="https://foodsafeiq.com/states-arkansas"/>
 <meta property="og:image" content="https://foodsafeiq.com/apple-touch-icon.png"/>
-
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Food Safety Software for Arkansas Restaurants — FoodSafe IQ"/>
-<meta name="twitter:description" content="AI-powered food safety auditing mapped to Arkansas's actual food code."/>
+<meta name="twitter:title" content="Arkansas Food Code Guide: Restaurant Inspections, Risk Categories &amp; Compliance"/>
+<meta name="twitter:description" content="Complete guide to ADH's restaurant inspection risk category system and how Arkansas violations are cited."/>
 <meta name="twitter:image" content="https://foodsafeiq.com/apple-touch-icon.png"/>
-
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet"/>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html{scroll-behavior:smooth}
 body{font-family:'DM Sans',sans-serif;background:#fff;color:#0d1b2a}
 :root{--navy:#0d1b2a;--navy-mid:#1F3864;--gold:#C9A84C;--cream:#F2F0EB}
-
 nav{position:sticky;top:0;z-index:100;min-height:74px;padding:0 6%;display:flex;align-items:center;justify-content:center;background:rgba(5,18,31,.96);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.1)}
 .nav-inner{width:min(1200px,100%);display:flex;align-items:center;justify-content:space-between;gap:28px}
 .nav-brand{font-family:'DM Serif Display',serif;font-size:20px;color:#fff;text-decoration:none}
@@ -44,42 +40,60 @@ nav{position:sticky;top:0;z-index:100;min-height:74px;padding:0 6%;display:flex;
 .nav-links a:hover{color:var(--gold)}
 .btn-nav{padding:12px 22px;background:linear-gradient(135deg,#e7bd52,#c99424);color:#081a2b!important;border-radius:7px;font-weight:800!important}
 @media(max-width:760px){.nav-inner{gap:14px}.nav-links{gap:16px;overflow-x:auto;-webkit-overflow-scrolling:touch}.nav-links a{white-space:nowrap;font-size:13px}.btn-nav{padding:10px 14px;font-size:13px;flex-shrink:0}}
-
 .page-hero{background:linear-gradient(160deg,var(--navy),var(--navy-mid));padding:64px 5% 50px;text-align:center}
 .section-label{display:block;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
-.page-hero h1{font-family:'DM Serif Display',serif;font-size:clamp(28px,3.6vw,42px);color:#fff;line-height:1.18;margin-bottom:14px}
-.page-hero p{font-size:16px;color:rgba(255,255,255,.65);max-width:660px;margin:0 auto;line-height:1.65}
-
+.page-hero h1{font-family:'DM Serif Display',serif;font-size:clamp(28px,3.6vw,46px);color:#fff;line-height:1.18;margin-bottom:14px}
+.page-hero p{font-size:16px;color:rgba(255,255,255,.65);max-width:700px;margin:0 auto;line-height:1.65}
 section{padding:64px 5%}
 .section-inner{max-width:1000px;margin:0 auto}
-.section-title{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,32px);color:var(--navy);text-align:center;margin-bottom:44px}
-
+.section-title{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,34px);color:var(--navy);margin-bottom:18px}
+.section-title.centered{text-align:center;margin-bottom:44px}
+.prose{font-size:15px;color:#444;line-height:1.78;max-width:780px}
+.prose p{margin-bottom:16px}
+.prose p:last-child{margin-bottom:0}
+.prose strong{color:var(--navy)}
+.prose a{color:#7F5700;font-weight:600;text-decoration:none}
+.info-section{background:#f7f8fa}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+@media(max-width:760px){.two-col{grid-template-columns:1fr}}
+.risk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:28px}
+.risk-card{border-radius:12px;padding:22px 20px;border:1.5px solid #E4E8EF}
+.risk-card.low{border-color:#2a7a3b;background:#f0faf2}
+.risk-card.medium{border-color:#b07d00;background:#fffbf0}
+.risk-card.high{border-color:#b83232;background:#fff5f5}
+.risk-badge{font-family:'DM Serif Display',serif;font-size:20px;font-weight:700;margin-bottom:4px;line-height:1.2}
+.risk-card.low .risk-badge{color:#2a7a3b}
+.risk-card.medium .risk-badge{color:#b07d00}
+.risk-card.high .risk-badge{color:#b83232}
+.risk-label{font-size:13px;font-weight:700;color:var(--navy);margin-bottom:8px}
+.risk-desc{font-size:13px;color:#555;line-height:1.6}
 .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 @media(max-width:820px){.why-grid{grid-template-columns:1fr}}
 .why-card{padding:26px;border-radius:14px;border:1.5px solid #E8EBF0}
 .why-num{font-family:'DM Serif Display',serif;font-size:13px;color:var(--gold);letter-spacing:2px;margin-bottom:12px}
 .why-title{font-family:'DM Serif Display',serif;font-size:18px;color:var(--navy);margin-bottom:9px}
 .why-body{font-size:13.5px;color:#666;line-height:1.68}
-
+.viol-list{display:flex;flex-direction:column;gap:12px;margin-top:24px}
+.viol-item{display:flex;gap:16px;padding:16px 20px;border-radius:10px;background:#f7f8fa;border-left:3px solid var(--gold)}
+.viol-num{font-family:'DM Serif Display',serif;font-size:13px;color:var(--gold);font-weight:700;flex-shrink:0;min-width:24px}
+.viol-body strong{color:var(--navy);display:block;font-size:14.5px;margin-bottom:3px}
+.viol-body span{font-size:13.5px;color:#555;line-height:1.6}
 .fit-section{background:var(--cream)}
 .fit-inner{max-width:760px;margin:0 auto;text-align:center}
 .fit-inner p{font-size:15px;color:#555;line-height:1.75;margin-bottom:14px}
 .fit-inner p:last-child{margin-bottom:0}
 .fit-inner a{color:#7F5700;font-weight:600;text-decoration:none}
-
 .feat-list{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
 .feat-row{display:flex;gap:16px;align-items:flex-start;padding:18px 22px;border:1px solid #E4E8EF;border-radius:12px}
 .feat-check{color:var(--gold);font-weight:700;font-size:16px;flex-shrink:0;margin-top:1px}
 .feat-text strong{color:var(--navy);display:block;margin-bottom:3px;font-size:14.5px}
 .feat-text span{font-size:13.5px;color:#666;line-height:1.6}
-
 .cta-section{background:var(--navy);text-align:center}
 .cta-section h2{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,32px);color:#fff;margin-bottom:14px}
 .cta-section p{color:rgba(255,255,255,.5);margin-bottom:28px;max-width:520px;margin-left:auto;margin-right:auto}
 .btn-primary{display:inline-block;padding:16px 30px;border-radius:7px;font-size:15px;font-weight:800;text-decoration:none;background:linear-gradient(135deg,#edc65e,#cc9528);color:#091929}
 .cta-links{margin-top:18px;font-size:13px}
 .cta-links a{color:rgba(255,255,255,.55)}
-
 footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;border-top:1px solid rgba(201,168,76,.08)}
 .footer-brand{font-family:'DM Serif Display',serif;font-size:13px;color:rgba(255,255,255,.6)}
 .footer-links{display:flex;gap:20px;flex-wrap:wrap}
@@ -102,28 +116,121 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
 
 <div class="page-hero">
   <span class="section-label">Arkansas Food Safety</span>
-  <h1>Food safety software mapped to Arkansas's actual food code</h1>
-  <p>Our checklist isn't a generic FDA template with your state's name on it. Every item is cited to Arkansas Department of Health (ADH)'s real regulation.</p>
+  <h1>Arkansas Food Code: A Complete Guide for Restaurant Operators</h1>
+  <p>Arkansas uses a risk-category system that determines how often your restaurant is inspected and how violations are documented. Here is how the Arkansas Department of Health categorizes food service operations, what inspectors check, and how violations are cited with specific regulatory code references.</p>
 </div>
+
+<section class="info-section">
+  <div class="section-inner">
+    <div class="two-col">
+      <div>
+        <h2 class="section-title">How Arkansas Food Inspections Work</h2>
+        <div class="prose">
+          <p>Food safety inspections in Arkansas are conducted by the <strong>Arkansas Department of Health (ADH)</strong>, Environmental Health Services. County offices carry out inspections statewide under state-level oversight and standardization. Full results are publicly accessible at <strong>healthy.arkansas.gov</strong>.</p>
+          <p>Arkansas assigns every licensed food service establishment to one of three <strong>risk categories</strong>: Category 1 (Low), Category 2 (Medium), or Category 3 (High). The risk category is determined by the type of food operations performed, the population served, and the complexity of food handling at the facility.</p>
+          <p>Most full-service restaurants fall into <strong>Category 2 (Medium Risk)</strong>. This includes operations that cook raw animal proteins to order, hold TCS foods, and serve the general public. Category 2 facilities are inspected at a higher base frequency than Category 1 (Low Risk) operations such as convenience stores selling only prepackaged food.</p>
+          <p>A distinguishing feature of Arkansas inspections is that <strong>violations are cited with specific regulatory code references</strong>. Rather than just noting "cold holding failure," an ADH inspector cites the exact code provision -- for example, ADH Rules and Regulations Pertaining to Restaurant Operations, the relevant section number -- alongside the violation description. This means corrective action documents must reference the specific rule, not just the general category.</p>
+          <p>All routine inspections are <strong>unannounced</strong>. Re-inspections for critical violations or compliance failures are also unannounced.</p>
+        </div>
+      </div>
+      <div>
+        <h2 class="section-title">Quick Reference</h2>
+        <div class="prose">
+          <p><strong>Regulatory authority:</strong> Arkansas Department of Health (ADH), Environmental Health Services</p>
+          <p><strong>Governing rules:</strong> ADH Rules and Regulations Pertaining to Restaurant Operations (FDA Food Code basis)</p>
+          <p><strong>Risk system:</strong> Category 1 (Low), Category 2 (Medium), Category 3 (High)</p>
+          <p><strong>Most restaurants:</strong> Category 2 (Medium Risk)</p>
+          <p><strong>Violation citations:</strong> Each violation includes the specific regulatory code reference</p>
+          <p><strong>Inspections announced:</strong> No -- all routine inspections are unannounced</p>
+          <p><strong>Public results:</strong> healthy.arkansas.gov</p>
+          <p><strong>TCS cold holding:</strong> 41°F or below</p>
+          <p><strong>TCS hot holding:</strong> 135°F or above</p>
+          <p><strong>Cooling requirement:</strong> 135°F to 70°F within 2 hours; 70°F to 41°F within an additional 4 hours</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section>
   <div class="section-inner">
-    <h2 class="section-title">Built on Arkansas law, not a national average</h2>
+    <h2 class="section-title centered">Arkansas Risk Categories</h2>
+    <div class="prose" style="max-width:100%;margin-bottom:12px;text-align:center">
+      <p>ADH classifies food service establishments by risk level. The risk category determines inspection frequency and the level of regulatory scrutiny applied during each visit. Most full-service restaurants are Category 2.</p>
+    </div>
+    <div class="risk-grid">
+      <div class="risk-card low">
+        <div class="risk-badge">Category 1</div>
+        <div class="risk-label">Low Risk</div>
+        <div class="risk-desc">Operations that handle only commercially pre-packaged foods or do not handle TCS foods. Examples include convenience stores that sell only sealed products or facilities with minimal food handling. Inspected least frequently because the risk of foodborne illness from these operations is lower.</div>
+      </div>
+      <div class="risk-card medium">
+        <div class="risk-badge">Category 2</div>
+        <div class="risk-label">Medium Risk -- Most Restaurants</div>
+        <div class="risk-desc">Operations that cook raw animal proteins, hold TCS foods hot or cold, and serve the general public. This category covers the large majority of full-service restaurants, fast food operations, and food trucks in Arkansas. Inspected at a higher base frequency than Category 1, with unannounced routine and follow-up visits.</div>
+      </div>
+      <div class="risk-card high">
+        <div class="risk-badge">Category 3</div>
+        <div class="risk-label">High Risk</div>
+        <div class="risk-desc">Operations that serve highly susceptible populations such as nursing home residents, hospital patients, daycare children, or perform specialized food processes such as smoking, curing, or reduced-oxygen packaging. Inspected most frequently. Compliance requirements are stricter and enforcement responses to violations are more rapid.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="info-section">
+  <div class="section-inner">
+    <h2 class="section-title">Most Common Violations in Arkansas Restaurant Inspections</h2>
+    <div class="prose" style="max-width:100%;margin-bottom:8px">
+      <p>ADH inspectors cite each violation with a specific regulatory code reference. These are the violation categories most frequently found in Arkansas food service inspections, particularly for Category 2 operations.</p>
+    </div>
+    <div class="viol-list">
+      <div class="viol-item">
+        <div class="viol-num">01</div>
+        <div class="viol-body"><strong>Temperature control failures (cold and hot holding)</strong><span>TCS foods held above 41°F in cold storage or below 135°F in hot holding are the most frequently cited violations in Arkansas. ADH inspectors probe temperatures directly. Each violation is cited with the specific section of the ADH food code addressing temperature control for safety foods.</span></div>
+      </div>
+      <div class="viol-item">
+        <div class="viol-num">02</div>
+        <div class="viol-body"><strong>Improper cooling of cooked foods</strong><span>Arkansas follows the FDA two-stage cooling requirement: 135°F to 70°F within 2 hours, then 70°F to 41°F within the next 4 hours. Large batches of rice, beans, soups, and proteins that are not cooled in shallow pans or with ice baths frequently fail this standard. Inspectors check cooling logs and probe foods in coolers.</span></div>
+      </div>
+      <div class="viol-item">
+        <div class="viol-num">03</div>
+        <div class="viol-body"><strong>Employee hygiene and handwashing</strong><span>Bare-hand contact with ready-to-eat foods, failure to wash hands between raw protein handling and other food prep, and handwashing sinks that are inaccessible or stocked without soap and paper towels. Each finding is cited with the specific handwashing or personal hygiene code provision in the ADH regulations.</span></div>
+      </div>
+      <div class="viol-item">
+        <div class="viol-num">04</div>
+        <div class="viol-body"><strong>Cross-contamination from raw protein storage</strong><span>Raw meats, poultry, or seafood stored above or adjacent to ready-to-eat foods in walk-ins and reach-ins. ADH inspectors check cooler organization on every routine inspection. Violations cite the specific storage hierarchy provision from Arkansas food service regulations.</span></div>
+      </div>
+      <div class="viol-item">
+        <div class="viol-num">05</div>
+        <div class="viol-body"><strong>Date labeling and discard compliance</strong><span>Ready-to-eat TCS foods prepared on site and held beyond 24 hours must carry a preparation date and consume-by date within 7 days. Missing labels, incorrect dates, and foods past their discard date are common findings. Inspectors check every labeled and unlabeled container in refrigerated storage.</span></div>
+      </div>
+      <div class="viol-item">
+        <div class="viol-num">06</div>
+        <div class="viol-body"><strong>Sanitizing solution concentration and equipment</strong><span>Chlorine or quaternary ammonium sanitizers outside the required concentration range, and multiuse food-contact surfaces that are not sanitized between uses. Inspectors test sanitizer solutions during the visit. Each violation cites the specific equipment sanitation or chemical sanitizer provision in the ADH code.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <h2 class="section-title centered">Built on Arkansas code, with code citations included</h2>
     <div class="why-grid">
       <div class="why-card">
         <div class="why-num">01</div>
-        <div class="why-title">Real, sourced citations</div>
-        <p class="why-body">Arkansas enforces Arkansas's own retail food rule (Ark. Admin. Code 007.04.21-003), which tracks the FDA Food Code 2017 with Arkansas-specific section numbering. Our checklist cites the specific section for each of the 27 items we check, sourced directly from Arkansas Department of Health (ADH)'s own published text — not generated or guessed.</p>
+        <div class="why-title">Matches ADH citation format</div>
+        <p class="why-body">Because Arkansas inspectors cite violations with specific regulatory code references, our Arkansas checklist maps each item to the ADH food code section that applies. When FoodSafe IQ flags a violation, you see the same citation format an ADH inspector would write -- not a vague category label.</p>
       </div>
       <div class="why-card">
         <div class="why-num">02</div>
-        <div class="why-title">The right agency</div>
-        <p class="why-body">Food safety enforcement in Arkansas runs through Arkansas Department of Health (ADH). Reports and citations reference this agency by name, not a generic "health department" placeholder.</p>
+        <div class="why-title">Category 2 defaults</div>
+        <p class="why-body">Our Arkansas checklist defaults to Category 2 (Medium Risk), which covers the majority of full-service Arkansas restaurants. If your operation falls into Category 3, additional checks for highly susceptible populations and specialized processes are activated in your account settings.</p>
       </div>
       <div class="why-card">
         <div class="why-num">03</div>
-        <div class="why-title">Honest about structure</div>
-        <p class="why-body">Arkansas uses its own section numbers rather than FDA's, and the offset isn't uniform across the code. Every citation on our checklist was read directly from Arkansas's actual rule text, not converted by formula, so the numbers you see match what an ADH inspector would cite.</p>
+        <div class="why-title">healthy.arkansas.gov transparency</div>
+        <p class="why-body">Arkansas inspection results are publicly available at healthy.arkansas.gov. Any customer can look up your most recent inspection. Our self-audit tools help you correct violations before they become public record -- and before ADH schedules an unannounced follow-up visit.</p>
       </div>
     </div>
   </div>
@@ -131,27 +238,27 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
 
 <section class="fit-section">
   <div class="fit-inner">
-    <p>AI reviews photos from each zone — cooler, prep, dish, receiving — against this Arkansas-specific checklist and flags violations with the exact citation an inspector would reference, plus a corrective action and owner assigned automatically.</p>
-    <p>Source: <a href="https://healthy.arkansas.gov/programs-services/public-health-safety/food-protection-inspection-portal/" target="_blank" rel="noopener nofollow">Arkansas ADH</a>. Regulations change — always confirm current requirements with Arkansas Department of Health (ADH) directly.</p>
+    <p>FoodSafe IQ runs AI photo reviews from each kitchen zone against an Arkansas-specific checklist, flags violations with ADH regulatory code references, and assigns corrective actions with owners and due dates automatically -- so your team knows exactly what an unannounced ADH inspector would cite before they arrive.</p>
+    <p>Source: <a href="https://www.healthy.arkansas.gov/programs-services/topics/food-service-establishments" target="_blank" rel="noopener nofollow">Arkansas Department of Health, Environmental Health Services</a>. Regulations change -- always confirm current requirements with ADH directly.</p>
   </div>
 </section>
 
 <section>
   <div class="section-inner">
-    <h2 class="section-title">What's included</h2>
+    <h2 class="section-title centered">What's included</h2>
     <div class="feat-list">
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>73-point inspection checklist</strong><span>Covers storage, temperature control, sanitation, cross-contamination, personal hygiene, equipment, and documentation, with Arkansas-specific citations wired into the AI's findings.</span></div></div>
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>AI photo review</strong><span>Upload photos from each zone and AI flags violations instantly, citing the specific Arkansas regulation.</span></div></div>
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Corrective action tracking</strong><span>Every violation gets an assigned owner, due date, and verification step.</span></div></div>
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Multi-location dashboard</strong><span>See every location's score and open items in one view, even across multiple states.</span></div></div>
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Temperature & HACCP logging</strong><span>Digital logs for walk-ins, hot holding, and dish machines.</span></div></div>
+      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Arkansas-specific inspection checklist</strong><span>Covers all major violation categories for Category 2 operations with ADH regulatory code citations, reflecting how current Arkansas inspectors document and classify violations under ADH food service rules.</span></div></div>
+      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>AI photo review</strong><span>Upload photos from each zone and AI flags violations with the applicable ADH code reference -- so staff understand exactly what the inspector would cite and how to correct it before the real inspection.</span></div></div>
+      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Cooling and temperature logging</strong><span>Digital logs for two-stage cooling cycles, walk-in temperatures, hot holding, and receiving. Timestamped and verifiable -- the records that show ADH inspectors you are monitoring what the code requires you to monitor.</span></div></div>
+      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Corrective action tracking</strong><span>Every violation gets an assigned owner, due date, and verification step. Nothing closes until a manager confirms the fix -- protecting your record from violations that get flagged but not fully resolved before the follow-up visit.</span></div></div>
+      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Multi-location dashboard</strong><span>See every Arkansas location's open items alongside other Southeast states if you operate regionally -- one view for managers and one for location-level staff, each with the right level of detail.</span></div></div>
     </div>
   </div>
 </section>
 
 <section class="cta-section">
-  <h2>See what AI catches in your Arkansas kitchen</h2>
-  <p>Start your 14-day free trial — no credit card required.</p>
+  <h2>See what ADH would cite in your Arkansas kitchen</h2>
+  <p>Start your 14-day free trial -- no credit card required.</p>
   <a href="https://app.foodsafeiq.com/?signup=1" class="btn-primary">Start Free Trial →</a>
   <div class="cta-links"><a href="/pricing">View full pricing →</a></div>
 </section>
