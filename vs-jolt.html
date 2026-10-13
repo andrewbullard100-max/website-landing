@@ -66,6 +66,27 @@ table.compare td.col-fsi{background:rgba(201,168,76,.05);color:#333;font-weight:
 .source-note{max-width:900px;margin:24px auto 0;font-size:12px;color:#999;line-height:1.6}
 .source-note a{color:#7F5700}
 
+.prose-section{padding:60px 5%}
+.prose-inner{max-width:760px;margin:0 auto}
+.prose-inner h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.6vw,28px);color:var(--navy);margin:0 0 14px;line-height:1.3}
+.prose-inner p{font-size:15.5px;color:#555;line-height:1.75;margin-bottom:16px}
+.prose-inner ul{margin:0 0 18px 22px}
+.prose-inner li{font-size:15.5px;color:#444;line-height:1.8;margin-bottom:8px}
+.prose-inner strong{color:var(--navy)}
+.prose-inner a{color:#7F5700;font-weight:600;text-decoration:none}
+.prose-inner a:hover{text-decoration:underline}
+.prose-alt{background:var(--cream)}
+.two-up{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:24px 0}
+.fit-card{background:#fff;border:1.5px solid #E4E8EF;border-radius:12px;padding:22px 24px}
+.prose-alt .fit-card{background:#fafbfc}
+.fit-card h3{font-size:15px;font-weight:700;color:var(--navy);margin-bottom:10px}
+.fit-card ul{margin:0 0 0 16px}
+.fit-card li{font-size:14px;color:#555;line-height:1.7;margin-bottom:5px}
+@media(max-width:640px){.two-up{grid-template-columns:1fr}}
+.callout{background:rgba(201,168,76,.08);border-left:3px solid var(--gold);padding:18px 22px;margin:24px 0;border-radius:0 10px 10px 0}
+.callout p{font-size:15px;color:#555;line-height:1.7;margin:0}
+.callout strong{color:var(--navy)}
+
 .positioning{background:var(--cream)}
 .positioning-inner{max-width:760px;margin:0 auto;text-align:center}
 .positioning h2{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,32px);color:var(--navy);margin-bottom:16px}
@@ -106,7 +127,7 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
 
 <section>
   <div class="section-inner">
-    <p class="intro">Jolt is a broad restaurant operations platform — digital checklists, employee scheduling, time clock, team communication, date-code labeling, and temperature sensors, with food safety as one module among several. FoodSafe IQ is built around a single problem: catching food safety violations before an inspector does, using AI to analyze photos from the actual operation. If you need a full operations suite, Jolt covers more ground. If inspection-readiness is the specific problem you're solving, FoodSafe IQ is built narrower and deeper on exactly that.</p>
+    <p class="intro">Jolt is a broad restaurant operations platform covering digital checklists, employee scheduling, time clock, team communication, date-code labeling, and temperature sensors, with food safety as one module among several. FoodSafe IQ is built around a single problem: catching food safety violations before an inspector does, using AI to analyze photos from the actual operation. If you need a full operations suite, Jolt covers more ground. If inspection-readiness is the specific problem you're solving, FoodSafe IQ is built narrower and deeper on exactly that.</p>
   </div>
 </section>
 
@@ -129,10 +150,67 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
   </div>
 </section>
 
+<section class="prose-section">
+  <div class="prose-inner">
+    <h2>What Jolt actually is</h2>
+    <p>Jolt is a restaurant operations platform built around daily team management. Its core modules include digital checklists, employee scheduling and time clock, team messaging and communication, date-code and expiration labeling, and Bluetooth-connected temperature sensors. Food safety is part of the Jolt platform, but it sits alongside scheduling, communication, and labeling rather than functioning as a dedicated compliance system.</p>
+    <p>The company markets to individual restaurants and small multi-unit groups, and a typical Jolt implementation is chosen by operators who want one app running most of their daily team operations, not just one part of the kitchen. The temperature sensor module and food safety checklist are features inside a broader toolset, not the reason the platform was built.</p>
+    <p>That positioning is worth understanding, because it shapes what the product is optimized to do well. Jolt is built to give a general manager one place to manage their whole shift. FoodSafe IQ is built to give a regional manager one place to see what condition every kitchen is in, right now, based on actual photos reviewed by AI.</p>
+  </div>
+</section>
+
+<section class="prose-section prose-alt">
+  <div class="prose-inner">
+    <h2>Where each platform fits well</h2>
+    <div class="two-up">
+      <div class="fit-card">
+        <h3>Jolt tends to fit well when</h3>
+        <ul>
+          <li>You want one app covering scheduling, labeling, team communication, and food safety together</li>
+          <li>You operate one to five locations and value simplicity over depth on any individual module</li>
+          <li>Your daily workflow is driven by a GM who manages everything from the same dashboard</li>
+          <li>You already use paper date labels and want a digital upgrade to the whole process at once</li>
+          <li>General operational checklists matter as much as food safety compliance specifically</li>
+        </ul>
+      </div>
+      <div class="fit-card">
+        <h3>FoodSafe IQ tends to fit well when</h3>
+        <ul>
+          <li>Inspection readiness is the specific outcome you're buying, not general operations management</li>
+          <li>You operate multiple locations and need a regional manager to see status across all of them</li>
+          <li>You want AI reviewing photos of the actual kitchen, not a checklist someone fills in manually</li>
+          <li>Published, predictable per-location pricing matters more than a bundled operations suite</li>
+          <li>Corrective action tracking with verified completion is part of the compliance workflow you need</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="prose-section">
+  <div class="prose-inner">
+    <h2>The core tradeoff</h2>
+    <p>The decision between Jolt and FoodSafe IQ is really a question of what problem you're solving. If the answer is "we want to digitize our whole daily operation: scheduling, labeling, team communication, and food safety in one place," Jolt's broader platform is a reasonable fit. It's a genuine all-in-one for location-level team management.</p>
+    <p>If the answer is "our specific problem is that we don't know what condition our kitchens are actually in until an inspector shows up," FoodSafe IQ is built to answer that question precisely, using AI to analyze photos from the actual operation rather than relying on checklist completion.</p>
+    <div class="callout"><p><strong>The meaningful distinction:</strong> a checklist that someone fills in confirms that someone was present and willing to check a box. A photo reviewed by AI confirms what the actual condition of the kitchen was at the moment the photo was taken. For operators where inspection readiness is the core risk, that distinction matters more than whether scheduling is in the same app.</p></div>
+    <p>Temperature sensors are another area worth comparing directly. Jolt offers Bluetooth temperature sensors as a hardware add-on that logs cooler and freezer readings. FoodSafe IQ's photo review covers temperature as part of the broader visual audit: a cooler photo captures what's actually inside and at what condition, not just the ambient air temperature. Both approaches have value; the question is which kind of evidence matters most for your program.</p>
+    <p>For operators running five or more locations, the multi-unit visibility question also comes into focus. A regional manager can't be everywhere at once. FoodSafe IQ's dashboard is built specifically to show the status of every location's compliance in one view, with corrective actions that have named owners and due dates rather than unresolved checklist items that close automatically at the end of a shift.</p>
+
+    <h2>Pricing in plain terms</h2>
+    <p>Jolt's pricing is not published on its website. Third-party review sites list it as sold through a sales conversation, with pricing that varies by module and location count. A full Jolt implementation covering multiple modules can run significantly higher than a food-safety-only tool.</p>
+    <p>FoodSafe IQ publishes its pricing: $79 per location per month for one to five locations, dropping automatically to $67 per location for six to ten locations, $59 for eleven to twenty, and $51 for twenty-one to fifty. Every plan includes the full feature set with no gated tiers. The full pricing table is at <a href="/pricing">foodsafeiq.com/pricing</a>.</p>
+
+    <h2>Who should consider each</h2>
+    <p><strong>Consider Jolt if</strong> you want one platform for scheduling, labeling, and food safety together; you operate a small number of locations and want simplicity over depth on any individual module; you're comfortable going through a sales process for pricing; and general daily operations management is at least as important as compliance specifically.</p>
+    <p><strong>Consider FoodSafe IQ if</strong> inspection readiness is the specific outcome you're paying for; you want AI reviewing actual photos of your kitchen rather than a digital version of a paper checklist; you manage multiple locations and need oversight visibility across all of them; and you want published pricing you can budget with before ever talking to anyone.</p>
+    <p>Both platforms offer digital checklists and some form of food safety monitoring. The difference is what they're primarily built to accomplish, and which problem is at the center of the design.</p>
+  </div>
+</section>
+
 <section class="positioning">
   <div class="positioning-inner">
     <h2>Built for one job, not twelve</h2>
-    <p>FoodSafe IQ doesn't do scheduling, time clocks, or labeling — and isn't trying to. Every part of the platform exists to answer one question: what does an inspector see when they walk in today? That focus is why the pricing is a flat, published per-location rate instead of a quoted bundle, and why the core feature is AI reading your actual photos instead of a sensor reading a single temperature point.</p>
+    <p>FoodSafe IQ doesn't do scheduling, time clocks, or labeling, and isn't trying to. Every part of the platform exists to answer one question: what does an inspector see when they walk in today? That focus is why the pricing is a flat, published per-location rate instead of a quoted bundle, and why the core feature is AI reading your actual photos instead of a sensor reading a single temperature point.</p>
   </div>
 </section>
 
