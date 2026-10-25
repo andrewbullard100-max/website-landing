@@ -5,132 +5,10 @@ to = "https://foodsafeiq.com/:splat"
 status = 301
 force = true
 
-# Trailing-slash → canonical (no trailing slash) — prevents GSC duplicate pages
-[[redirects]]
-from = "/pricing/"
-to = "/pricing"
-status = 301
-force = true
-
-[[redirects]]
-from = "/blog/"
-to = "/blog"
-status = 301
-force = true
-
-[[redirects]]
-from = "/blog-multi-unit-food-safety-compliance-guide/"
-to = "/blog-multi-unit-food-safety-compliance-guide"
-status = 301
-force = true
-
-[[redirects]]
-from = "/blog-cooling-mistake-walk-in-near-miss/"
-to = "/blog-cooling-mistake-walk-in-near-miss"
-status = 301
-force = true
-
-[[redirects]]
-from = "/blog-surprise-inspection-during-the-rush/"
-to = "/blog-surprise-inspection-during-the-rush"
-status = 301
-force = true
-
-[[redirects]]
-from = "/blog-walk-in-door-ajar-overnight-near-miss/"
-to = "/blog-walk-in-door-ajar-overnight-near-miss"
-status = 301
-force = true
-
-[[redirects]]
-from = "/solutions-higher-education/"
-to = "/solutions-higher-education"
-status = 301
-force = true
-
-[[redirects]]
-from = "/solutions-healthcare-dining/"
-to = "/solutions-healthcare-dining"
-status = 301
-force = true
-
-[[redirects]]
-from = "/vs-jolt/"
-to = "/vs-jolt"
-status = 301
-force = true
-
-[[redirects]]
-from = "/vs-crunchtime/"
-to = "/vs-crunchtime"
-status = 301
-force = true
-
-[[redirects]]
-from = "/vs-fooddocs/"
-to = "/vs-fooddocs"
-status = 301
-force = true
-
-[[redirects]]
-from = "/states-alabama/"
-to = "/states-alabama"
-status = 301
-force = true
-
-[[redirects]]
-from = "/states-arkansas/"
-to = "/states-arkansas"
-status = 301
-force = true
-
-[[redirects]]
-from = "/states-florida/"
-to = "/states-florida"
-status = 301
-force = true
-
-[[redirects]]
-from = "/states-georgia/"
-to = "/states-georgia"
-status = 301
-force = true
-
-[[redirects]]
-from = "/states-kentucky/"
-to = "/states-kentucky"
-status = 301
-force = true
-
-[[redirects]]
-from = "/states-louisiana/"
-to = "/states-louisiana"
-status = 301
-force = true
-
-[[redirects]]
-from = "/states-north-carolina/"
-to = "/states-north-carolina"
-status = 301
-force = true
-
-[[redirects]]
-from = "/states-south-carolina/"
-to = "/states-south-carolina"
-status = 301
-force = true
-
-[[redirects]]
-from = "/privacy/"
-to = "/privacy"
-status = 301
-force = true
-
-[[redirects]]
-from = "/terms/"
-to = "/terms"
-status = 301
-force = true
+# NOTE: Do not add "/page/" -> "/page" rules. Netlify strips trailing slashes
+# before matching, so such a rule also matches "/page" and redirects it to
+# itself forever (this caused the Oct 2026 outage). "/page/" is already served
+# as "/page" by Netlify's normalization; canonical tags handle SEO.
 
 [[redirects]]
 from = "/index.html"
@@ -243,5 +121,35 @@ force = true
 [[redirects]]
 from = "/terms.html"
 to = "/terms"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog-cooling-mistake-walk-in-near-miss.html"
+to = "/blog-cooling-mistake-walk-in-near-miss"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog-surprise-inspection-during-the-rush.html"
+to = "/blog-surprise-inspection-during-the-rush"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog-walk-in-door-ajar-overnight-near-miss.html"
+to = "/blog-walk-in-door-ajar-overnight-near-miss"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog-food-allergen-cross-contact-prevention.html"
+to = "/blog-food-allergen-cross-contact-prevention"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog-jalapeno-salmonella-outbreak-receiving-lessons.html"
+to = "/blog-jalapeno-salmonella-outbreak-receiving-lessons"
 status = 301
 force = true
