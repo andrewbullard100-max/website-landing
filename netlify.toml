@@ -23,6 +23,12 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/pilot.html"
+to = "/pilot"
+status = 301
+force = true
+
+[[redirects]]
 from = "/blog.html"
 to = "/blog"
 status = 301
