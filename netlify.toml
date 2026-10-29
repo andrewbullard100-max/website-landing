@@ -153,3 +153,9 @@ from = "/blog-jalapeno-salmonella-outbreak-receiving-lessons.html"
 to = "/blog-jalapeno-salmonella-outbreak-receiving-lessons"
 status = 301
 force = true
+
+[[redirects]]
+from = "/blog-nursing-home-kitchen-survey-readiness-checklist.html"
+to = "/blog-nursing-home-kitchen-survey-readiness-checklist"
+status = 301
+force = true
