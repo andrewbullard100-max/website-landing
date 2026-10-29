@@ -10,25 +10,28 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-WL7SXWY1RY');
 </script>
-<title>Arkansas Food Code Guide: Restaurant Inspections, Risk Categories &amp; Compliance — FoodSafe IQ</title>
-<meta name="description" content="Complete guide to Arkansas's food safety inspection system: ADH risk categories, how violations are cited with code references, what Category 2 (Medium) means for most restaurants, and the most common findings."/>
+<title>Arkansas Restaurant Inspections: Risk Categories &amp; Violations</title>
+<meta name="description" content="How ADH classifies Arkansas restaurants by risk category under Ark. Admin. Code 007.04.21-003, what Category 2 means for most restaurants, and how violations are cited with code references."/>
 <link rel="canonical" href="https://foodsafeiq.com/states-arkansas"/>
 <link rel="icon" type="image/png" href="apple-touch-icon.png"/>
 <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="FoodSafe IQ"/>
-<meta property="og:title" content="Arkansas Food Code Guide: Restaurant Inspections, Risk Categories &amp; Compliance"/>
-<meta property="og:description" content="How the Arkansas Department of Health inspects restaurants, what risk categories mean for inspection frequency, and how violations are cited with regulatory code references."/>
+<meta property="og:title" content="Arkansas Restaurant Inspections: Risk Categories &amp; Violations"/>
+<meta property="og:description" content="How ADH classifies Arkansas restaurants by risk category, what each category means for inspection frequency, and how violations are cited with Arkansas code section references."/>
 <meta property="og:url" content="https://foodsafeiq.com/states-arkansas"/>
 <meta property="og:image" content="https://foodsafeiq.com/og-image.png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Arkansas Food Code Guide: Restaurant Inspections, Risk Categories &amp; Compliance"/>
-<meta name="twitter:description" content="Complete guide to ADH's restaurant inspection risk category system and how Arkansas violations are cited."/>
+<meta name="twitter:title" content="Arkansas Restaurant Inspections: Risk Categories &amp; Violations"/>
+<meta name="twitter:description" content="ADH risk categories, inspection frequencies, and violation citation format under Ark. Admin. Code 007.04.21-003."/>
 <meta name="twitter:image" content="https://foodsafeiq.com/og-image.png"/>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://foodsafeiq.com/"},{"@type":"ListItem","position":2,"name":"States","item":"https://foodsafeiq.com/#features"},{"@type":"ListItem","position":3,"name":"Arkansas","item":"https://foodsafeiq.com/states-arkansas"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://foodsafeiq.com/"},{"@type":"ListItem","position":2,"name":"Arkansas","item":"https://foodsafeiq.com/states-arkansas"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What risk category are most Arkansas restaurants?","acceptedAnswer":{"@type":"Answer","text":"Most full-service restaurants in Arkansas are classified as Category 2 (Medium Risk) under Ark. Admin. Code 007.04.21-003. This includes operations that cook raw animal proteins to order, hold TCS foods, and serve the general public. Category 2 facilities are inspected more frequently than Category 1 (Low Risk) operations but less frequently than Category 3 (High Risk) operations serving highly susceptible populations."}},{"@type":"Question","name":"How are violations cited in Arkansas food service inspections?","acceptedAnswer":{"@type":"Answer","text":"Arkansas Department of Health inspectors cite each violation with a specific section reference from Ark. Admin. Code 007.04.21-003 (effective October 24, 2022). Arkansas uses its own section numbering, which is not identical to the FDA Food Code model ordinance section numbers. Each corrective action notice must reference the specific code provision, not just a general violation category."}},{"@type":"Question","name":"How does Arkansas food code differ from the FDA Food Code?","acceptedAnswer":{"@type":"Answer","text":"Arkansas adopted Ark. Admin. Code 007.04.21-003 effective October 24, 2022, which incorporates food safety requirements from the FDA Food Code framework but uses Arkansas's own section numbering. The section numbers in the Arkansas rules are not a direct one-to-one match with FDA Food Code section numbers, so operators should reference the Arkansas code directly rather than assuming FDA section numbers apply."}},{"@type":"Question","name":"Where can I see Arkansas restaurant inspection results?","acceptedAnswer":{"@type":"Answer","text":"Arkansas inspection results are publicly available at healthy.arkansas.gov. Consumers and operators can search for licensed food service establishment inspection reports by facility name or location."}},{"@type":"Question","name":"Does Arkansas require a Certified Food Protection Manager?","acceptedAnswer":{"@type":"Answer","text":"Arkansas requires that a Person in Charge be able to demonstrate food safety knowledge during an inspection under Ark. Admin. Code 007.04.21-003. Specific CFPM certification requirements depend on the operation type and risk category. Confirm current requirements with ADH Food Protection Program directly."}}]}
 </script>
 
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet"/>
@@ -67,10 +70,10 @@ section{padding:64px 5%}
 .risk-card.low{border-color:#2a7a3b;background:#f0faf2}
 .risk-card.medium{border-color:#b07d00;background:#fffbf0}
 .risk-card.high{border-color:#b83232;background:#fff5f5}
-.risk-badge{font-family:'DM Serif Display',serif;font-size:20px;font-weight:700;margin-bottom:4px;line-height:1.2}
-.risk-card.low .risk-badge{color:#2a7a3b}
-.risk-card.medium .risk-badge{color:#b07d00}
-.risk-card.high .risk-badge{color:#b83232}
+h3.risk-badge{font-family:'DM Serif Display',serif;font-size:20px;font-weight:700;margin-bottom:4px;line-height:1.2}
+.risk-card.low h3.risk-badge{color:#2a7a3b}
+.risk-card.medium h3.risk-badge{color:#b07d00}
+.risk-card.high h3.risk-badge{color:#b83232}
 .risk-label{font-size:13px;font-weight:700;color:var(--navy);margin-bottom:8px}
 .risk-desc{font-size:13px;color:#555;line-height:1.6}
 .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
@@ -89,11 +92,20 @@ section{padding:64px 5%}
 .fit-inner p{font-size:15px;color:#555;line-height:1.75;margin-bottom:14px}
 .fit-inner p:last-child{margin-bottom:0}
 .fit-inner a{color:#7F5700;font-weight:600;text-decoration:none}
-.feat-list{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
-.feat-row{display:flex;gap:16px;align-items:flex-start;padding:18px 22px;border:1px solid #E4E8EF;border-radius:12px}
-.feat-check{color:var(--gold);font-weight:700;font-size:16px;flex-shrink:0;margin-top:1px}
-.feat-text strong{color:var(--navy);display:block;margin-bottom:3px;font-size:14.5px}
-.feat-text span{font-size:13.5px;color:#666;line-height:1.6}
+.faq-list{display:flex;flex-direction:column;gap:16px;max-width:780px;margin:0 auto}
+.faq-item{border:1.5px solid #E4E8EF;border-radius:12px;padding:22px 24px}
+.faq-item h3{font-family:'DM Serif Display',serif;font-size:17px;color:var(--navy);margin-bottom:10px;font-weight:400}
+.faq-item p{font-size:14px;color:#555;line-height:1.7}
+.states-grid{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:24px}
+.state-link{display:inline-block;padding:9px 18px;border:1.5px solid #D8DDE6;border-radius:8px;font-size:13.5px;font-weight:600;color:var(--navy);text-decoration:none;transition:border-color .15s,color .15s}
+.state-link:hover{border-color:var(--gold);color:#7F5700}
+.sources-section{background:#f7f8fa}
+.sources-inner{max-width:780px;margin:0 auto}
+.sources-inner h2{font-family:'DM Serif Display',serif;font-size:20px;color:var(--navy);margin-bottom:14px}
+.sources-inner ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+.sources-inner li{font-size:13px;color:#555;line-height:1.6}
+.sources-inner a{color:#7F5700;text-decoration:none;font-weight:600}
+.reviewed-note{font-size:12px;color:#888;margin-top:12px;font-style:italic}
 .cta-section{background:var(--navy);text-align:center}
 .cta-section h2{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,32px);color:#fff;margin-bottom:14px}
 .cta-section p{color:rgba(255,255,255,.5);margin-bottom:28px;max-width:520px;margin-left:auto;margin-right:auto}
@@ -122,32 +134,32 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
 
 <div class="page-hero">
   <span class="section-label">Arkansas Food Safety</span>
-  <h1>Arkansas Food Code: A Complete Guide for Restaurant Operators</h1>
-  <p>Arkansas uses a risk-category system that determines how often your restaurant is inspected and how violations are documented. Here is how the Arkansas Department of Health categorizes food service operations, what inspectors check, and how violations are cited with specific regulatory code references.</p>
+  <h1>Arkansas restaurant inspections: risk categories and violation codes</h1>
+  <p>Arkansas assigns every food service establishment to a risk category that determines inspection frequency and scrutiny level under Ark. Admin. Code 007.04.21-003. Here is how ADH categorizes operations, what inspectors check, and how violations are cited with specific Arkansas code references.</p>
 </div>
 
 <section class="info-section">
   <div class="section-inner">
     <div class="two-col">
       <div>
-        <h2 class="section-title">How Arkansas Food Inspections Work</h2>
+        <h2 class="section-title">How Arkansas food inspections work</h2>
         <div class="prose">
-          <p>Food safety inspections in Arkansas are conducted by the <strong>Arkansas Department of Health (ADH)</strong>, Environmental Health Services. County offices carry out inspections statewide under state-level oversight and standardization. Full results are publicly accessible at <strong>healthy.arkansas.gov</strong>.</p>
-          <p>Arkansas assigns every licensed food service establishment to one of three <strong>risk categories</strong>: Category 1 (Low), Category 2 (Medium), or Category 3 (High). The risk category is determined by the type of food operations performed, the population served, and the complexity of food handling at the facility.</p>
-          <p>Most full-service restaurants fall into <strong>Category 2 (Medium Risk)</strong>. This includes operations that cook raw animal proteins to order, hold TCS foods, and serve the general public. Category 2 facilities are inspected at a higher base frequency than Category 1 (Low Risk) operations such as convenience stores selling only prepackaged food.</p>
-          <p>A distinguishing feature of Arkansas inspections is that <strong>violations are cited with specific regulatory code references</strong>. Rather than just noting "cold holding failure," an ADH inspector cites the exact code provision -- for example, ADH Rules and Regulations Pertaining to Restaurant Operations, the relevant section number -- alongside the violation description. This means corrective action documents must reference the specific rule, not just the general category.</p>
+          <p>Food safety inspections in Arkansas are conducted by the <strong>Arkansas Department of Health (ADH), Food Protection Program</strong>. County offices carry out inspections statewide under state-level oversight. Full results are publicly accessible at <strong>healthy.arkansas.gov</strong>.</p>
+          <p>Arkansas assigns every licensed food service establishment to one of three <strong>risk categories</strong>: Category 1 (Low), Category 2 (Medium), or Category 3 (High). The category is determined by the type of food operations performed, the population served, and the complexity of food handling at the facility. The risk category drives inspection frequency and the level of regulatory scrutiny applied during each visit.</p>
+          <p>The governing rules are <strong>Ark. Admin. Code 007.04.21-003</strong> (Retail Food Establishment Rules), effective October 24, 2022. Arkansas uses its <strong>own section numbering</strong> -- not the FDA Food Code model ordinance section numbers. Each violation cited by an ADH inspector includes a specific Arkansas code section reference, so corrective action notices must track the actual Arkansas rule provision rather than the FDA Food Code number.</p>
           <p>All routine inspections are <strong>unannounced</strong>. Re-inspections for critical violations or compliance failures are also unannounced.</p>
         </div>
       </div>
       <div>
-        <h2 class="section-title">Quick Reference</h2>
+        <h2 class="section-title">Quick reference</h2>
         <div class="prose">
-          <p><strong>Regulatory authority:</strong> Arkansas Department of Health (ADH), Environmental Health Services</p>
-          <p><strong>Governing rules:</strong> ADH Rules and Regulations Pertaining to Restaurant Operations (FDA Food Code basis)</p>
+          <p><strong>Regulatory authority:</strong> ADH Food Protection Program</p>
+          <p><strong>Governing code:</strong> Ark. Admin. Code 007.04.21-003, Retail Food Establishment Rules (effective October 24, 2022)</p>
+          <p><strong>Code numbering:</strong> Arkansas-specific section numbers (not FDA model code numbers)</p>
           <p><strong>Risk system:</strong> Category 1 (Low), Category 2 (Medium), Category 3 (High)</p>
           <p><strong>Most restaurants:</strong> Category 2 (Medium Risk)</p>
-          <p><strong>Violation citations:</strong> Each violation includes the specific regulatory code reference</p>
-          <p><strong>Inspections announced:</strong> No -- all routine inspections are unannounced</p>
+          <p><strong>Violation citations:</strong> Each violation includes the specific Arkansas code section</p>
+          <p><strong>Inspections announced:</strong> No</p>
           <p><strong>Public results:</strong> healthy.arkansas.gov</p>
           <p><strong>TCS cold holding:</strong> 41°F or below</p>
           <p><strong>TCS hot holding:</strong> 135°F or above</p>
@@ -160,25 +172,25 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
 
 <section>
   <div class="section-inner">
-    <h2 class="section-title centered">Arkansas Risk Categories</h2>
+    <h2 class="section-title centered">Arkansas risk categories</h2>
     <div class="prose" style="max-width:100%;margin-bottom:12px;text-align:center">
-      <p>ADH classifies food service establishments by risk level. The risk category determines inspection frequency and the level of regulatory scrutiny applied during each visit. Most full-service restaurants are Category 2.</p>
+      <p>ADH classifies every food service establishment by risk level under Ark. Admin. Code 007.04.21-003. The risk category determines inspection frequency and the level of regulatory scrutiny applied during each visit. Most full-service restaurants are Category 2.</p>
     </div>
     <div class="risk-grid">
       <div class="risk-card low">
-        <div class="risk-badge">Category 1</div>
+        <h3 class="risk-badge">Category 1</h3>
         <div class="risk-label">Low Risk</div>
         <div class="risk-desc">Operations that handle only commercially pre-packaged foods or do not handle TCS foods. Examples include convenience stores that sell only sealed products or facilities with minimal food handling. Inspected least frequently because the risk of foodborne illness from these operations is lower.</div>
       </div>
       <div class="risk-card medium">
-        <div class="risk-badge">Category 2</div>
+        <h3 class="risk-badge">Category 2</h3>
         <div class="risk-label">Medium Risk -- Most Restaurants</div>
-        <div class="risk-desc">Operations that cook raw animal proteins, hold TCS foods hot or cold, and serve the general public. This category covers the large majority of full-service restaurants, fast food operations, and food trucks in Arkansas. Inspected at a higher base frequency than Category 1, with unannounced routine and follow-up visits.</div>
+        <div class="risk-desc">Operations that cook raw animal proteins, hold TCS foods hot or cold, and serve the general public. This category covers the large majority of full-service restaurants, fast food operations, and food trucks in Arkansas. Inspected more frequently than Category 1, with unannounced routine and follow-up visits.</div>
       </div>
       <div class="risk-card high">
-        <div class="risk-badge">Category 3</div>
+        <h3 class="risk-badge">Category 3</h3>
         <div class="risk-label">High Risk</div>
-        <div class="risk-desc">Operations that serve highly susceptible populations such as nursing home residents, hospital patients, daycare children, or perform specialized food processes such as smoking, curing, or reduced-oxygen packaging. Inspected most frequently. Compliance requirements are stricter and enforcement responses to violations are more rapid.</div>
+        <div class="risk-desc">Operations that serve highly susceptible populations such as nursing home residents, hospital patients, or daycare children, or perform specialized food processes such as smoking, curing, or reduced-oxygen packaging. Inspected most frequently. Compliance requirements are stricter and enforcement responses to violations are more rapid.</div>
       </div>
     </div>
   </div>
@@ -186,26 +198,50 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
 
 <section class="info-section">
   <div class="section-inner">
-    <h2 class="section-title">Most Common Violations in Arkansas Restaurant Inspections</h2>
+    <h2 class="section-title">Violation types and correction windows</h2>
+    <div class="prose">
+      <p>Under Ark. Admin. Code 007.04.21-003, ADH classifies violations by type and assigns correction windows based on risk level:</p>
+      <p><strong>Priority violations</strong> are items directly linked to foodborne illness risk -- improper holding temperatures, inadequate cooking, contamination from raw proteins, employee illness, chemical contamination, and approved source requirements. Priority violations carry a correction window of 4 to 30 days depending on severity. Some priority violations require immediate corrective action on-site during the inspection.</p>
+      <p><strong>Priority Foundation violations</strong> support the conditions that prevent priority violations -- equipment calibration, water temperature, and HACCP plan compliance. Priority Foundation items carry a correction window of 4 to 10 days.</p>
+      <p><strong>Core violations</strong> are items related to general maintenance, facility condition, and good practice requirements not directly linked to immediate illness risk. Core violations carry a correction window of up to 90 days.</p>
+      <p>Each violation is documented on the inspection report with the specific Ark. Admin. Code 007.04.21-003 section reference. Arkansas section numbers are not a direct match to FDA Food Code section numbers -- always reference the Arkansas code when drafting corrective action plans.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <h2 class="section-title">CFPM requirements in Arkansas</h2>
+    <div class="prose">
+      <p>Under Ark. Admin. Code 007.04.21-003, the Person in Charge of a food service establishment during each operating shift must be able to demonstrate food safety knowledge to an ADH inspector. This includes knowledge of applicable provisions of the Arkansas rules, foodborne illness risk factors, and the corrective actions required for each type of violation.</p>
+      <p>Specific <strong>Certified Food Protection Manager (CFPM)</strong> certification requirements under Arkansas law apply to certain operation types and risk categories. For Category 3 operations serving highly susceptible populations -- including nursing homes and assisted living facilities -- the documentation requirements for food safety training and competency are more stringent. Operators should confirm exact CFPM certification requirements with ADH Food Protection Program directly, as requirements may vary by operation type and local ordinance.</p>
+      <p>For <a href="/solutions-healthcare-dining">healthcare and senior living dining operations in Arkansas</a>, federal CMS standards under 42 CFR 483.60 apply independently of state CFPM rules and require documented evidence of food safety competency for dietary staff serving Medicare- and Medicaid-certified residents.</p>
+    </div>
+  </div>
+</section>
+
+<section class="info-section">
+  <div class="section-inner">
+    <h2 class="section-title">Most common violations in Arkansas restaurant inspections</h2>
     <div class="prose" style="max-width:100%;margin-bottom:8px">
-      <p>ADH inspectors cite each violation with a specific regulatory code reference. These are the violation categories most frequently found in Arkansas food service inspections, particularly for Category 2 operations.</p>
+      <p>ADH inspectors cite each violation with a specific Ark. Admin. Code 007.04.21-003 section reference. These are the violation categories most frequently found in Arkansas food service inspections, particularly for Category 2 operations.</p>
     </div>
     <div class="viol-list">
       <div class="viol-item">
         <div class="viol-num">01</div>
-        <div class="viol-body"><strong>Temperature control failures (cold and hot holding)</strong><span>TCS foods held above 41°F in cold storage or below 135°F in hot holding are the most frequently cited violations in Arkansas. ADH inspectors probe temperatures directly. Each violation is cited with the specific section of the ADH food code addressing temperature control for safety foods.</span></div>
+        <div class="viol-body"><strong>Temperature control failures (cold and hot holding)</strong><span>TCS foods held above 41°F in cold storage or below 135°F in hot holding are the most frequently cited violations in Arkansas. ADH inspectors probe temperatures directly during every routine visit. Each violation is cited with the specific Arkansas code section addressing temperature control for safety foods.</span></div>
       </div>
       <div class="viol-item">
         <div class="viol-num">02</div>
-        <div class="viol-body"><strong>Improper cooling of cooked foods</strong><span>Arkansas follows the FDA two-stage cooling requirement: 135°F to 70°F within 2 hours, then 70°F to 41°F within the next 4 hours. Large batches of rice, beans, soups, and proteins that are not cooled in shallow pans or with ice baths frequently fail this standard. Inspectors check cooling logs and probe foods in coolers.</span></div>
+        <div class="viol-body"><strong>Improper cooling of cooked foods</strong><span>Arkansas follows the two-stage cooling requirement: 135°F to 70°F within 2 hours, then 70°F to 41°F within the next 4 hours. Large batches of rice, beans, soups, and proteins that are not cooled in shallow pans or with ice baths frequently fail this standard. Inspectors check cooling logs and probe foods in coolers.</span></div>
       </div>
       <div class="viol-item">
         <div class="viol-num">03</div>
-        <div class="viol-body"><strong>Employee hygiene and handwashing</strong><span>Bare-hand contact with ready-to-eat foods, failure to wash hands between raw protein handling and other food prep, and handwashing sinks that are inaccessible or stocked without soap and paper towels. Each finding is cited with the specific handwashing or personal hygiene code provision in the ADH regulations.</span></div>
+        <div class="viol-body"><strong>Employee hygiene and handwashing</strong><span>Bare-hand contact with ready-to-eat foods, failure to wash hands between raw protein handling and other food prep, and handwashing sinks that are inaccessible or lacking soap and paper towels. Each finding is cited with the specific handwashing or personal hygiene code provision from Ark. Admin. Code 007.04.21-003.</span></div>
       </div>
       <div class="viol-item">
         <div class="viol-num">04</div>
-        <div class="viol-body"><strong>Cross-contamination from raw protein storage</strong><span>Raw meats, poultry, or seafood stored above or adjacent to ready-to-eat foods in walk-ins and reach-ins. ADH inspectors check cooler organization on every routine inspection. Violations cite the specific storage hierarchy provision from Arkansas food service regulations.</span></div>
+        <div class="viol-body"><strong>Cross-contamination from raw protein storage</strong><span>Raw meats, poultry, or seafood stored above or adjacent to ready-to-eat foods in walk-ins and reach-ins. ADH inspectors check cooler organization on every routine inspection. Violations cite the specific storage hierarchy provision from Arkansas food service rules.</span></div>
       </div>
       <div class="viol-item">
         <div class="viol-num">05</div>
@@ -213,7 +249,7 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
       </div>
       <div class="viol-item">
         <div class="viol-num">06</div>
-        <div class="viol-body"><strong>Sanitizing solution concentration and equipment</strong><span>Chlorine or quaternary ammonium sanitizers outside the required concentration range, and multiuse food-contact surfaces that are not sanitized between uses. Inspectors test sanitizer solutions during the visit. Each violation cites the specific equipment sanitation or chemical sanitizer provision in the ADH code.</span></div>
+        <div class="viol-body"><strong>Sanitizing solution concentration and equipment sanitation</strong><span>Chlorine or quaternary ammonium sanitizers outside the required concentration range, and multiuse food-contact surfaces not sanitized between uses. Inspectors test sanitizer solutions during the visit. Each violation cites the specific equipment sanitation or chemical sanitizer provision in Ark. Admin. Code 007.04.21-003.</span></div>
       </div>
     </div>
   </div>
@@ -221,22 +257,22 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
 
 <section>
   <div class="section-inner">
-    <h2 class="section-title centered">Built on Arkansas code, with code citations included</h2>
+    <h2 class="section-title centered">Manage your Arkansas compliance program</h2>
     <div class="why-grid">
       <div class="why-card">
         <div class="why-num">01</div>
         <div class="why-title">Matches ADH citation format</div>
-        <p class="why-body">Because Arkansas inspectors cite violations with specific regulatory code references, our Arkansas checklist maps each item to the ADH food code section that applies. When FoodSafe IQ flags a violation, you see the same citation format an ADH inspector would write -- not a vague category label.</p>
+        <p class="why-body">Because Arkansas inspectors cite violations with specific Arkansas code section references from Ark. Admin. Code 007.04.21-003, FoodSafe IQ maps each checklist item to the applicable provision. When FoodSafe IQ flags a violation, you see the same citation format an ADH inspector would write. See <a href="/pricing">pricing</a>.</p>
       </div>
       <div class="why-card">
         <div class="why-num">02</div>
         <div class="why-title">Category 2 defaults</div>
-        <p class="why-body">Our Arkansas checklist defaults to Category 2 (Medium Risk), which covers the majority of full-service Arkansas restaurants. If your operation falls into Category 3, additional checks for highly susceptible populations and specialized processes are activated in your account settings.</p>
+        <p class="why-body">Our Arkansas checklist defaults to Category 2 (Medium Risk), covering the majority of full-service Arkansas restaurants. Category 3 operators serving highly susceptible populations can activate additional checks for vulnerable population requirements.</p>
       </div>
       <div class="why-card">
         <div class="why-num">03</div>
-        <div class="why-title">healthy.arkansas.gov transparency</div>
-        <p class="why-body">Arkansas inspection results are publicly available at healthy.arkansas.gov. Any customer can look up your most recent inspection. Our self-audit tools help you correct violations before they become public record -- and before ADH schedules an unannounced follow-up visit.</p>
+        <div class="why-title">Multi-unit visibility</div>
+        <p class="why-body">Arkansas inspection results are public at healthy.arkansas.gov. See every location's open items in one dashboard alongside other Southeast states if you operate regionally. See our <a href="/blog-multi-unit-food-safety-compliance-guide">multi-unit food safety compliance guide</a>.</p>
       </div>
     </div>
   </div>
@@ -244,20 +280,63 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
 
 <section class="fit-section">
   <div class="fit-inner">
-    <p>FoodSafe IQ runs AI photo reviews from each kitchen zone against an Arkansas-specific checklist, flags violations with ADH regulatory code references, and assigns corrective actions with owners and due dates automatically -- so your team knows exactly what an unannounced ADH inspector would cite before they arrive.</p>
-    <p>Source: <a href="https://www.healthy.arkansas.gov/programs-services/topics/food-service-establishments" target="_blank" rel="noopener nofollow">Arkansas Department of Health, Environmental Health Services</a>. Regulations change -- always confirm current requirements with ADH directly.</p>
+    <h2 class="section-title" style="margin-bottom:18px">See what ADH would cite in your Arkansas kitchen</h2>
+    <p>FoodSafe IQ runs AI photo reviews from each kitchen zone against an Arkansas-specific checklist, flags violations with ADH regulatory code references from Ark. Admin. Code 007.04.21-003, and assigns corrective actions with owners and due dates automatically. For healthcare and senior living dining programs in Arkansas, <a href="/solutions-healthcare-dining">our healthcare dining solution</a> covers the additional CMS compliance layer. Higher education dining programs can learn more at <a href="/solutions-higher-education">our higher education page</a>.</p>
+    <a href="https://app.foodsafeiq.com/?signup=1" class="btn-primary" style="display:inline-block;margin-top:18px">Start Free Trial →</a>
+    <p style="margin-top:10px"><a href="/pricing">View full pricing →</a></p>
   </div>
 </section>
 
 <section>
   <div class="section-inner">
-    <h2 class="section-title centered">What's included</h2>
-    <div class="feat-list">
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Arkansas-specific inspection checklist</strong><span>Covers all major violation categories for Category 2 operations with ADH regulatory code citations, reflecting how current Arkansas inspectors document and classify violations under ADH food service rules.</span></div></div>
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>AI photo review</strong><span>Upload photos from each zone and AI flags violations with the applicable ADH code reference -- so staff understand exactly what the inspector would cite and how to correct it before the real inspection.</span></div></div>
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Cooling and temperature logging</strong><span>Digital logs for two-stage cooling cycles, walk-in temperatures, hot holding, and receiving. Timestamped and verifiable -- the records that show ADH inspectors you are monitoring what the code requires you to monitor.</span></div></div>
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Corrective action tracking</strong><span>Every violation gets an assigned owner, due date, and verification step. Nothing closes until a manager confirms the fix -- protecting your record from violations that get flagged but not fully resolved before the follow-up visit.</span></div></div>
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Multi-location dashboard</strong><span>See every Arkansas location's open items alongside other Southeast states if you operate regionally -- one view for managers and one for location-level staff, each with the right level of detail.</span></div></div>
+    <h2 class="section-title centered">Frequently asked questions</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>What risk category are most Arkansas restaurants?</h3>
+        <p>Most full-service restaurants in Arkansas are classified as Category 2 (Medium Risk) under Ark. Admin. Code 007.04.21-003. This includes operations that cook raw animal proteins to order, hold TCS foods, and serve the general public. Category 2 facilities are inspected more frequently than Category 1 (Low Risk) operations but less frequently than Category 3 (High Risk) operations serving highly susceptible populations.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How are violations cited in Arkansas food service inspections?</h3>
+        <p>ADH inspectors cite each violation with a specific section reference from Ark. Admin. Code 007.04.21-003 (effective October 24, 2022). Arkansas uses its own section numbering, which is not identical to FDA Food Code model ordinance section numbers. Each corrective action notice must reference the specific Arkansas code provision.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How does Arkansas food code differ from the FDA Food Code?</h3>
+        <p>Arkansas adopted Ark. Admin. Code 007.04.21-003 effective October 24, 2022, which incorporates food safety requirements from the FDA Food Code framework but uses Arkansas's own section numbering. The section numbers in the Arkansas rules are not a direct one-to-one match with FDA Food Code section numbers, so operators should reference the Arkansas code directly.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Where can I see Arkansas restaurant inspection results?</h3>
+        <p>Arkansas inspection results are publicly available at healthy.arkansas.gov. Consumers and operators can search for licensed food service establishment inspection reports by facility name or location.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <h2 class="section-title centered">Other state food safety guides</h2>
+    <div class="states-grid">
+      <a href="/states-kentucky" class="state-link">Kentucky</a>
+      <a href="/states-north-carolina" class="state-link">North Carolina</a>
+      <a href="/states-florida" class="state-link">Florida</a>
+      <a href="/states-louisiana" class="state-link">Louisiana</a>
+      <a href="/states-georgia" class="state-link">Georgia</a>
+      <a href="/states-alabama" class="state-link">Alabama</a>
+      <a href="/states-south-carolina" class="state-link">South Carolina</a>
+    </div>
+  </div>
+</section>
+
+<section class="sources-section">
+  <div class="section-inner">
+    <div class="sources-inner">
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://www.healthy.arkansas.gov/programs-services/topics/food-service-establishments" target="_blank" rel="noopener nofollow">Arkansas Department of Health, Food Protection Program</a></li>
+        <li>Ark. Admin. Code 007.04.21-003, Retail Food Establishment Rules (effective October 24, 2022)</li>
+        <li>Arkansas inspection results database -- healthy.arkansas.gov</li>
+        <li>FDA Food Code (for comparison; Arkansas uses own section numbering distinct from the FDA model ordinance)</li>
+      </ul>
+      <p class="reviewed-note">Last reviewed: October 2026. Regulatory requirements change -- always confirm current rules with ADH Food Protection Program directly. Arkansas section numbers cited on this page refer to Ark. Admin. Code 007.04.21-003 and should be verified against the current published code before use in corrective action plans.</p>
     </div>
   </div>
 </section>
