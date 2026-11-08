@@ -10,25 +10,28 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-WL7SXWY1RY');
 </script>
-<title>Florida Food Code Guide: Restaurant Inspections, DBPR Scoring &amp; Compliance — FoodSafe IQ</title>
-<meta name="description" content="Complete guide to Florida's food safety inspection system: DBPR's 53-point checklist, high-priority vs. basic violations, twice-yearly inspections, and how to look up your facility's inspection history."/>
+<title>Florida Restaurant Inspections: DBPR Compliance Guide</title>
+<meta name="description" content="Florida DBPR restaurant inspection guide: Rule 61C-1.001, three violation categories, semi-annual schedule, CFPM requirements, and how to look up inspection history on the DBPR website."/>
 <link rel="canonical" href="https://foodsafeiq.com/states-florida"/>
 <link rel="icon" type="image/png" href="apple-touch-icon.png"/>
 <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="FoodSafe IQ"/>
-<meta property="og:title" content="Florida Food Code Guide: Restaurant Inspections, DBPR Scoring &amp; Compliance"/>
-<meta property="og:description" content="How Florida's DBPR inspects restaurants, how the 53-point checklist works, what high-priority violations mean, and how to prepare your operation."/>
+<meta property="og:title" content="Florida Restaurant Inspections: DBPR Compliance Guide"/>
+<meta property="og:description" content="How Florida's DBPR inspects restaurants, how violation categories work, what High Priority violations mean, and how to prepare your operation."/>
 <meta property="og:url" content="https://foodsafeiq.com/states-florida"/>
 <meta property="og:image" content="https://foodsafeiq.com/og-image.png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Florida Food Code Guide: Restaurant Inspections, DBPR Scoring &amp; Compliance"/>
+<meta name="twitter:title" content="Florida Restaurant Inspections: DBPR Compliance Guide"/>
 <meta name="twitter:description" content="Complete guide to Florida's DBPR restaurant inspection system and how to stay compliant."/>
 <meta name="twitter:image" content="https://foodsafeiq.com/og-image.png"/>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://foodsafeiq.com/"},{"@type":"ListItem","position":2,"name":"States","item":"https://foodsafeiq.com/#features"},{"@type":"ListItem","position":3,"name":"Florida","item":"https://foodsafeiq.com/states-florida"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://foodsafeiq.com/"},{"@type":"ListItem","position":2,"name":"States","item":"https://foodsafeiq.com/"},{"@type":"ListItem","position":3,"name":"Florida","item":"https://foodsafeiq.com/states-florida"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How often does DBPR inspect Florida restaurants?","acceptedAnswer":{"@type":"Answer","text":"Florida law requires food service establishments to be inspected at least twice per year by the Division of Hotels and Restaurants within DBPR. Facilities with a history of violations, those handling highly hazardous foods, or those receiving complaints may be inspected more frequently. All routine inspections are unannounced."}},{"@type":"Question","name":"Does Florida use letter grades for restaurant inspections?","acceptedAnswer":{"@type":"Answer","text":"No. Florida does not use a letter-grade system like some other states. DBPR assigns violations to three categories (High Priority, Intermediate, and Basic) and tracks them across inspection cycles. Restaurants are required to make their most recent inspection report available to any member of the public who requests it, and results are also publicly searchable on the DBPR website."}},{"@type":"Question","name":"What is a High Priority violation in Florida?","acceptedAnswer":{"@type":"Answer","text":"High Priority violations are the most serious violations in Florida's DBPR system. They are violations most directly linked to conditions that can cause foodborne illness: improper temperatures for TCS foods, improper cooking, bare-hand contact with ready-to-eat foods, employee illness, pest evidence, and improper chemical storage near food. High Priority violations must be corrected immediately when possible."}},{"@type":"Question","name":"Does Florida require a Certified Food Manager?","acceptedAnswer":{"@type":"Answer","text":"Yes. Florida requires that a certified food manager be available during operating hours under Food Rule 61C-4. The manager must hold a valid ANSI-accredited food manager certification. If the person on duty cannot produce a valid certification during an inspection, it is a violation. Confirm current requirements with DBPR directly."}}]}
 </script>
 
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet"/>
@@ -62,13 +65,14 @@ section{padding:64px 5%}
 .info-section{background:#f7f8fa}
 .two-col{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
 @media(max-width:760px){.two-col{grid-template-columns:1fr}}
-.viol-type-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:24px}
-@media(max-width:700px){.viol-type-grid{grid-template-columns:1fr}}
+.viol-type-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-top:24px}
 .viol-type-card{border-radius:12px;padding:24px;border:1.5px solid #E4E8EF}
 .viol-type-card.high{border-color:#b83232;background:#fff5f5}
+.viol-type-card.intermediate{border-color:#b07d00;background:#fffbf0}
 .viol-type-card.basic{border-color:#2a7a3b;background:#f0faf2}
 .viol-type-label{font-family:'DM Serif Display',serif;font-size:18px;margin-bottom:10px}
 .viol-type-card.high .viol-type-label{color:#b83232}
+.viol-type-card.intermediate .viol-type-label{color:#b07d00}
 .viol-type-card.basic .viol-type-label{color:#2a7a3b}
 .viol-type-desc{font-size:13.5px;color:#555;line-height:1.65}
 .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
@@ -92,7 +96,23 @@ section{padding:64px 5%}
 .feat-check{color:var(--gold);font-weight:700;font-size:16px;flex-shrink:0;margin-top:1px}
 .feat-text strong{color:var(--navy);display:block;margin-bottom:3px;font-size:14.5px}
 .feat-text span{font-size:13.5px;color:#666;line-height:1.6}
-.cta-section{background:var(--navy);text-align:center}
+.faq-list{display:flex;flex-direction:column;gap:14px;max-width:780px;margin:28px auto 0}
+.faq-item{border:1.5px solid #E4E8EF;border-radius:12px;padding:22px 24px}
+.faq-q{font-family:'DM Serif Display',serif;font-size:17px;color:var(--navy);margin-bottom:10px}
+.faq-a{font-size:14px;color:#555;line-height:1.75}
+.faq-a a{color:#7F5700;font-weight:600;text-decoration:none}
+.state-links-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:24px}
+.state-link-card{display:block;padding:16px 20px;border:1.5px solid #E4E8EF;border-radius:10px;text-decoration:none;color:var(--navy);font-size:14px;font-weight:600;transition:border-color .2s,background .2s}
+.state-link-card:hover{border-color:var(--gold);background:#fffdf5}
+.sources-section{background:#f7f8fa;padding:40px 5%}
+.sources-inner{max-width:780px;margin:0 auto}
+.sources-inner h2{font-family:'DM Serif Display',serif;font-size:20px;color:var(--navy);margin-bottom:10px}
+.sources-inner p{font-size:13px;color:#666;line-height:1.7;margin-bottom:10px}
+.sources-inner ul{padding-left:20px;font-size:13px;color:#555;line-height:1.8}
+.sources-inner ul li{margin-bottom:4px}
+.sources-inner a{color:#7F5700;font-weight:600;text-decoration:none}
+.last-reviewed{font-size:12px;color:#888;margin-top:12px;font-style:italic}
+.cta-section{background:var(--navy);text-align:center;padding:64px 5%}
 .cta-section h2{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,32px);color:#fff;margin-bottom:14px}
 .cta-section p{color:rgba(255,255,255,.5);margin-bottom:28px;max-width:520px;margin-left:auto;margin-right:auto}
 .btn-primary{display:inline-block;padding:16px 30px;border-radius:7px;font-size:15px;font-weight:800;text-decoration:none;background:linear-gradient(135deg,#edc65e,#cc9528);color:#091929}
@@ -114,14 +134,14 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
     <div class="nav-links">
       <a href="/#features">Features</a><a href="/#how-it-works">How It Works</a><a href="/pricing">Pricing</a><a href="/blog">Blog</a><a href="/#about">About Us</a><a href="/#contact">Contact</a>
     </div>
-    <a href="https://app.foodsafeiq.com/?signup=1" class="btn-nav">Start Free Trial →</a>
+    <a href="https://app.foodsafeiq.com/?signup=1" class="btn-nav">Start Free Trial &rarr;</a>
   </div>
 </nav>
 
 <div class="page-hero">
   <span class="section-label">Florida Food Safety</span>
-  <h1>Florida Food Code: A Complete Guide for Restaurant Operators</h1>
-  <p>How Florida's DBPR inspects restaurants at least twice a year, what the 53-point checklist covers, why Florida doesn't use letter grades, and which violations are most likely to result in a warning or closure order.</p>
+  <h1>Florida Restaurant Inspections: DBPR Compliance Guide</h1>
+  <p>How Florida's Division of Hotels and Restaurants within DBPR inspects food establishments at least twice a year, how the three violation categories work, why Florida doesn't use letter grades, and which violations are most likely to result in a warning or closure order.</p>
 </div>
 
 <section class="info-section">
@@ -130,7 +150,7 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
       <div>
         <h2 class="section-title">How Florida Food Inspections Work</h2>
         <div class="prose">
-          <p>Food safety inspections in Florida are conducted by the <strong>Division of Hotels and Restaurants</strong> within the <strong>Department of Business and Professional Regulation (DBPR)</strong>. Florida does not use a letter grade system. Instead, DBPR assigns violations to categories and tracks them on a 53-point inspection checklist derived from the FDA Food Code.</p>
+          <p>Food safety inspections in Florida are conducted by the <strong>Division of Hotels and Restaurants</strong> within the <strong>Department of Business and Professional Regulation (DBPR)</strong>. Florida does not use a letter grade system. Instead, DBPR assigns violations to three categories and tracks them on a standardized inspection form derived from the FDA Food Code, as adopted through <strong>Rule 61C-1.001, Florida Administrative Code</strong>.</p>
           <p>Florida law requires that food service establishments be inspected <strong>at least twice per year</strong>. Facilities with a history of violations, those handling highly hazardous foods, or those receiving complaints may be inspected more frequently. All routine inspections are unannounced.</p>
           <p>After an inspection, the establishment has the right to receive a copy of the inspection report. Florida law also requires that restaurants <strong>make their most recent inspection report available to any member of the public who asks for it</strong>. Inspection results are also published on DBPR's website and searchable by the public.</p>
           <p>A key feature of Florida's system is that inspectors can issue an <strong>Emergency Order for Suspension of License</strong> when they find conditions that represent an immediate public health hazard. This order closes the facility on the spot, and the operator must correct all conditions and pass a re-inspection before reopening.</p>
@@ -139,15 +159,16 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
       <div>
         <h2 class="section-title">Quick Reference</h2>
         <div class="prose">
-          <p><strong>Regulatory authority:</strong> Florida Department of Business and Professional Regulation (DBPR), Division of Hotels and Restaurants</p>
-          <p><strong>Grading system:</strong> No letter grades -- pass/fail with violation categories</p>
-          <p><strong>Inspection form:</strong> 53-point checklist</p>
+          <p><strong>Regulatory authority:</strong> Florida DBPR, Division of Hotels and Restaurants</p>
+          <p><strong>Governing rules:</strong> Chapter 509, Florida Statutes; Food Rule 61C-1.001 (adopting FDA Food Code 2017)</p>
+          <p><strong>Grading system:</strong> No letter grades -- three violation category tiers</p>
+          <p><strong>Violation categories:</strong> High Priority, Intermediate, Basic</p>
           <p><strong>Inspection frequency:</strong> At least twice per year; more for high-risk or complaint facilities</p>
           <p><strong>Inspections announced:</strong> No -- routine inspections are unannounced</p>
           <p><strong>Inspection records:</strong> Must be made available to the public on request; also searchable at DBPR's website</p>
-          <p><strong>Emergency closure:</strong> Emergency Order for Suspension of License when immediate health hazard exists</p>
-          <p><strong>TCS cold holding:</strong> 41°F or below</p>
-          <p><strong>TCS hot holding:</strong> 135°F or above</p>
+          <p><strong>Emergency closure:</strong> Emergency Order for Suspension of License for immediate health hazards</p>
+          <p><strong>TCS cold holding:</strong> 41&deg;F or below</p>
+          <p><strong>TCS hot holding:</strong> 135&deg;F or above</p>
         </div>
       </div>
     </div>
@@ -158,16 +179,20 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
   <div class="section-inner">
     <h2 class="section-title centered">How Florida Categorizes Violations</h2>
     <div class="prose" style="max-width:100%;margin-bottom:20px;text-align:center">
-      <p>Florida doesn't use letter grades, but it does categorize violations by severity. The distinction between High Priority and Basic violations determines how quickly you must correct them and how inspectors treat repeat findings.</p>
+      <p>Florida uses three violation categories under DBPR's inspection system. The category assigned to a violation determines how urgently it must be corrected and how DBPR treats repeat findings across inspection cycles.</p>
     </div>
     <div class="viol-type-grid">
       <div class="viol-type-card high">
-        <div class="viol-type-label">High Priority Violations</div>
-        <div class="viol-type-desc">These are the violations most directly linked to conditions that can cause foodborne illness: improper temperatures for TCS foods, improper cooking, bare-hand contact with ready-to-eat foods, employee illness, improper chemical storage near food, and pest evidence. High Priority violations must be corrected immediately when possible, and DBPR tracks them across inspection cycles to identify chronic problems.</div>
+        <h3 class="viol-type-label">High Priority</h3>
+        <div class="viol-type-desc">The most serious violations, directly linked to conditions that can cause foodborne illness: improper temperatures for TCS foods, inadequate cooking, bare-hand contact with ready-to-eat foods, employee illness, pest evidence, and improper chemical storage near food. High Priority violations must be corrected immediately when possible. DBPR tracks them across inspection cycles -- repeat High Priority findings accelerate enforcement.</div>
+      </div>
+      <div class="viol-type-card intermediate">
+        <h3 class="viol-type-label">Intermediate</h3>
+        <div class="viol-type-desc">Violations related to general food protection practices, sanitation of equipment and utensils, food source documentation, and required employee certifications. Intermediate violations are less immediately dangerous than High Priority but reflect systemic compliance weaknesses. A missing or expired food manager certification is an Intermediate violation. These are corrected within a required timeframe set by the inspector.</div>
       </div>
       <div class="viol-type-card basic">
-        <div class="viol-type-label">Basic Violations</div>
-        <div class="viol-type-desc">These violations are less immediately dangerous but reflect systemic compliance problems: improper equipment condition, missing certifications, inadequate lighting or ventilation, and documentation gaps. Basic violations are still recorded and can accumulate to a pattern that increases inspection frequency. Repeated basic violations in the same category often signal an underlying training or management issue.</div>
+        <h3 class="viol-type-label">Basic</h3>
+        <div class="viol-type-desc">Violations related to facility maintenance, equipment condition, lighting, ventilation, and general housekeeping. Basic violations do not pose an immediate health risk but signal underlying operational issues. Repeated Basic violations in the same category often indicate a training or maintenance gap that will appear on future inspections as well.</div>
       </div>
     </div>
   </div>
@@ -177,32 +202,32 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
   <div class="section-inner">
     <h2 class="section-title">Most Common Violations in Florida Restaurant Inspections</h2>
     <div class="prose" style="max-width:100%;margin-bottom:8px">
-      <p>DBPR inspectors cover all 53 checklist points on every routine visit. These are the categories where violations appear most frequently across Florida's food service establishments.</p>
+      <p>DBPR inspectors evaluate all inspection points on every routine visit. These are the categories where violations appear most frequently across Florida's food service establishments.</p>
     </div>
     <div class="viol-list">
       <div class="viol-item">
         <div class="viol-num">01</div>
-        <div class="viol-body"><strong>TCS food temperature control</strong><span>Cold-held foods above 41°F or hot-held foods below 135°F are High Priority violations. Florida's heat and humidity mean refrigeration equipment works harder and temperatures can drift more quickly than in cooler climates. Calibrated thermometers and twice-per-shift temperature logs are the minimum standard.</span></div>
+        <div class="viol-body"><strong>TCS food temperature control (High Priority)</strong><span>Cold-held foods above 41&deg;F or hot-held foods below 135&deg;F. Florida's heat and humidity mean refrigeration equipment works harder and temperatures can drift more quickly than in cooler climates. Calibrated thermometers and twice-per-shift temperature logs are the minimum standard.</span></div>
       </div>
       <div class="viol-item">
         <div class="viol-num">02</div>
-        <div class="viol-body"><strong>Handwashing and bare-hand contact</strong><span>Failure to wash hands at required points or making bare-hand contact with ready-to-eat foods. DBPR inspectors observe employee behavior during the inspection. Florida's high-volume tourism-driven restaurant environment creates pressure that sometimes leads staff to skip handwashing steps.</span></div>
+        <div class="viol-body"><strong>Handwashing and bare-hand contact (High Priority)</strong><span>Failure to wash hands at required points or making bare-hand contact with ready-to-eat foods. DBPR inspectors observe employee behavior during the inspection. Florida's high-volume tourism-driven restaurant environment creates pressure that sometimes leads staff to skip handwashing steps.</span></div>
       </div>
       <div class="viol-item">
         <div class="viol-num">03</div>
-        <div class="viol-body"><strong>Improper cooling</strong><span>Hot food not cooled from 135°F to 70°F within 2 hours, or from 70°F to 41°F within the following 4 hours. In high-volume kitchens, large pots of sauces, soups, and proteins are the most common problem. Covered, hot containers placed directly in coolers are the most frequent cause of cooling violations.</span></div>
+        <div class="viol-body"><strong>Improper cooling (High Priority)</strong><span>Hot food not cooled from 135&deg;F to 70&deg;F within 2 hours, or from 70&deg;F to 41&deg;F within the following 4 hours. In high-volume kitchens, large pots of sauces, soups, and proteins are the most common problem. Covered, hot containers placed directly in coolers are the most frequent cause of cooling violations.</span></div>
       </div>
       <div class="viol-item">
         <div class="viol-num">04</div>
-        <div class="viol-body"><strong>Food storage and cross-contamination</strong><span>Raw proteins stored above ready-to-eat foods, or foods stored without protection from contamination. DBPR inspectors check cooler organization on every visit. Florida's seafood-heavy menus mean raw shellfish, finfish, and proteins from multiple species are frequently stored in close proximity.</span></div>
+        <div class="viol-body"><strong>Food storage and cross-contamination (High Priority)</strong><span>Raw proteins stored above ready-to-eat foods, or foods stored without protection from contamination. DBPR inspectors check cooler organization on every visit. Florida's seafood-heavy menus mean raw shellfish, finfish, and proteins from multiple species are frequently stored in close proximity.</span></div>
       </div>
       <div class="viol-item">
         <div class="viol-num">05</div>
-        <div class="viol-body"><strong>Pest evidence</strong><span>Roach activity, rodent droppings, or flying insects in food prep or storage areas. Florida's climate supports year-round pest pressure, making pest control documentation and regular prevention treatments a compliance requirement, not just a preference. Evidence of pests during inspection can result in immediate closure.</span></div>
+        <div class="viol-body"><strong>Pest evidence (High Priority)</strong><span>Roach activity, rodent droppings, or flying insects in food prep or storage areas. Florida's climate supports year-round pest pressure, making pest control documentation and regular prevention treatments a compliance requirement. Evidence of pests during inspection can result in immediate closure.</span></div>
       </div>
       <div class="viol-item">
         <div class="viol-num">06</div>
-        <div class="viol-body"><strong>Certified food manager on duty</strong><span>Florida requires that a certified food manager be available during operating hours. If the person on duty cannot produce a valid ANSI-accredited certification, it is a violation. With multiple shifts and high turnover in Florida's hospitality industry, tracking which managers are certified and scheduling them appropriately requires active management.</span></div>
+        <div class="viol-body"><strong>Certified food manager on duty (Intermediate)</strong><span>Florida requires that a certified food manager be available during operating hours under Food Rule 61C-4. If the person on duty cannot produce a valid ANSI-accredited certification, it is an Intermediate violation. With multiple shifts and high turnover in Florida's hospitality industry, tracking which managers are certified and scheduling them appropriately requires active management.</span></div>
       </div>
     </div>
   </div>
@@ -215,12 +240,12 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
       <div class="why-card">
         <div class="why-num">01</div>
         <div class="why-title">Real, sourced citations</div>
-        <p class="why-body">Florida's food safety rules are enforced by DBPR under Chapter 509, Florida Statutes, and Food Rule 61C-4. Our checklist cites the specific provision for each item we check, sourced directly from DBPR's published rule text -- not a generic FDA template.</p>
+        <p class="why-body">Florida's food safety rules are enforced by DBPR under Chapter 509, Florida Statutes, and Food Rule 61C-1.001. Our checklist cites the specific provision for each item we check, sourced directly from DBPR's published rule text -- not a generic FDA template.</p>
       </div>
       <div class="why-card">
         <div class="why-num">02</div>
-        <div class="why-title">High Priority violation awareness</div>
-        <p class="why-body">Because Florida uses a violation severity system rather than letter grades, we flag High Priority violations with distinct urgency so operators can prioritize correction. DBPR tracks High Priority violations across inspection cycles, and repeat findings accelerate enforcement.</p>
+        <div class="why-title">Three-tier violation awareness</div>
+        <p class="why-body">Because Florida uses High Priority, Intermediate, and Basic categories rather than letter grades, we flag violations by tier so operators can prioritize correction. DBPR tracks High Priority violations across cycles, and repeat findings accelerate enforcement.</p>
       </div>
       <div class="why-card">
         <div class="why-num">03</div>
@@ -233,29 +258,84 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
 
 <section class="fit-section">
   <div class="fit-inner">
+    <h2 class="section-title centered" style="font-size:clamp(22px,2.6vw,28px)">Prepare your Florida kitchen before the inspector arrives</h2>
     <p>FoodSafe IQ runs AI photo reviews from each zone -- cooler, prep, dish, receiving -- against a Florida-specific checklist and flags violations with the exact DBPR citation an inspector would reference, plus a corrective action and owner assigned automatically. Managers can run a self-audit between inspections and arrive at the real DBPR visit already knowing where they stand.</p>
-    <p>Source: <a href="https://www.myfloridalicense.com/DBPR/hotels-restaurants/" target="_blank" rel="noopener nofollow">Florida DBPR, Division of Hotels and Restaurants</a>. Regulations change -- always confirm current requirements with DBPR directly.</p>
+    <p>See how it works for <a href="/solutions-healthcare-dining">healthcare and senior living dining</a> or <a href="/solutions-higher-education">higher education foodservice</a> -- or explore our <a href="/blog-multi-unit-food-safety-compliance-guide">multi-unit compliance guide</a> for operators across multiple Florida locations.</p>
+    <p style="margin-top:18px"><a href="https://app.foodsafeiq.com/?signup=1" class="btn-primary" style="font-size:14px;padding:14px 26px">Start Free Trial &rarr;</a></p>
   </div>
 </section>
 
 <section>
   <div class="section-inner">
-    <h2 class="section-title centered">What's included</h2>
+    <h2 class="section-title centered">What FoodSafe IQ includes for Florida operators</h2>
     <div class="feat-list">
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Florida-specific inspection checklist</strong><span>Covers all 53 DBPR inspection points with High Priority violations flagged separately, reflecting how DBPR categorizes and tracks violation severity across inspection cycles.</span></div></div>
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>AI photo review</strong><span>Upload photos from each zone and AI flags violations with the Florida-specific citation, so staff understand what DBPR would write up and why it matters.</span></div></div>
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Corrective action tracking</strong><span>Every violation gets an assigned owner, due date, and verification step. High Priority violations are flagged for same-shift resolution to prevent them from appearing on the next DBPR inspection report.</span></div></div>
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Multi-location dashboard</strong><span>See every Florida location's compliance status and open items in one view. Multi-unit operators can track which sites have open High Priority findings at any given time.</span></div></div>
-      <div class="feat-row"><span class="feat-check">✓</span><div class="feat-text"><strong>Temperature and HACCP logging</strong><span>Digital logs for walk-ins, hot holding, and cooling records. Timestamped, verifiable, and ready to share with DBPR or the public when inspection reports are requested.</span></div></div>
+      <div class="feat-row"><span class="feat-check">&#10003;</span><div class="feat-text"><strong>Florida-specific inspection checklist</strong><span>Covers all DBPR inspection categories (High Priority, Intermediate, Basic) with violations flagged by tier, reflecting how DBPR categorizes and tracks violation severity. See <a href="/pricing" style="color:#7F5700;font-weight:600">pricing</a> for plan details.</span></div></div>
+      <div class="feat-row"><span class="feat-check">&#10003;</span><div class="feat-text"><strong>AI photo review</strong><span>Upload photos from each zone and AI flags violations with the Florida-specific citation, so staff understand what DBPR would write up and why it matters.</span></div></div>
+      <div class="feat-row"><span class="feat-check">&#10003;</span><div class="feat-text"><strong>Corrective action tracking</strong><span>Every violation gets an assigned owner, due date, and verification step. High Priority violations are flagged for same-shift resolution to prevent them from appearing on the next DBPR inspection report.</span></div></div>
+      <div class="feat-row"><span class="feat-check">&#10003;</span><div class="feat-text"><strong>Multi-location dashboard</strong><span>See every Florida location's compliance status and open items in one view. Multi-unit operators can track which sites have open High Priority findings at any given time.</span></div></div>
+      <div class="feat-row"><span class="feat-check">&#10003;</span><div class="feat-text"><strong>Temperature and HACCP logging</strong><span>Digital logs for walk-ins, hot holding, and cooling records. Timestamped, verifiable, and ready to share with DBPR or the public when inspection reports are requested.</span></div></div>
     </div>
   </div>
 </section>
 
+<section class="info-section">
+  <div class="section-inner">
+    <h2 class="section-title centered">Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q">How often does DBPR inspect Florida restaurants?</div>
+        <div class="faq-a">Florida law requires food service establishments to be inspected at least twice per year. Facilities with a history of violations, those handling highly hazardous foods, or those receiving complaints may be inspected more frequently. All routine inspections are unannounced.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Does Florida use letter grades for restaurant inspections?</div>
+        <div class="faq-a">No. Florida does not use a letter-grade system. DBPR assigns violations to three categories (High Priority, Intermediate, and Basic) and tracks them across inspection cycles. Restaurants are required to make their most recent inspection report available to any member of the public who requests it, and results are also publicly searchable on the <a href="https://www.myfloridalicense.com/DBPR/hotels-restaurants/" target="_blank" rel="noopener nofollow">DBPR website</a>.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What is a High Priority violation in Florida?</div>
+        <div class="faq-a">High Priority violations are the most serious violations in Florida's DBPR system -- violations most directly linked to conditions that can cause foodborne illness: improper temperatures for TCS foods, inadequate cooking, bare-hand contact with ready-to-eat foods, employee illness, pest evidence, and improper chemical storage near food. They must be corrected immediately when possible.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Does Florida require a Certified Food Manager?</div>
+        <div class="faq-a">Yes. Florida requires that a certified food manager be available during operating hours under Food Rule 61C-4. The manager must hold a valid ANSI-accredited food manager certification. If the person on duty cannot produce a valid certification during an inspection, it is an Intermediate violation. Confirm current requirements with DBPR directly.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <h2 class="section-title centered">Other State Food Safety Guides</h2>
+    <div class="state-links-grid">
+      <a href="/states-kentucky" class="state-link-card">Kentucky Inspections</a>
+      <a href="/states-north-carolina" class="state-link-card">North Carolina Inspections</a>
+      <a href="/states-louisiana" class="state-link-card">Louisiana Inspections</a>
+      <a href="/states-georgia" class="state-link-card">Georgia Inspections</a>
+      <a href="/states-alabama" class="state-link-card">Alabama Inspections</a>
+      <a href="/states-south-carolina" class="state-link-card">South Carolina Inspections</a>
+      <a href="/states-arkansas" class="state-link-card">Arkansas Inspections</a>
+    </div>
+  </div>
+</section>
+
+<div class="sources-section">
+  <div class="sources-inner">
+    <h2>Sources</h2>
+    <p>Regulatory information on this page is sourced from primary government materials. Always confirm current requirements with DBPR directly before making compliance decisions.</p>
+    <ul>
+      <li><a href="https://www.myfloridalicense.com/DBPR/hotels-restaurants/" target="_blank" rel="noopener nofollow">Florida DBPR, Division of Hotels and Restaurants</a></li>
+      <li>Chapter 509, Florida Statutes -- Public Lodging and Food Service Establishments</li>
+      <li>Florida Administrative Code Rule 61C-1.001 (adopting FDA Food Code 2017)</li>
+      <li>Florida Administrative Code Rule 61C-4 (food manager certification requirements)</li>
+    </ul>
+    <p class="last-reviewed">Last reviewed: October 2026. Regulations change -- verify current requirements with DBPR directly.</p>
+  </div>
+</div>
+
 <section class="cta-section">
   <h2>See what AI catches in your Florida kitchen</h2>
   <p>Start your 14-day free trial -- no credit card required.</p>
-  <a href="https://app.foodsafeiq.com/?signup=1" class="btn-primary">Start Free Trial →</a>
-  <div class="cta-links"><a href="/pricing">View full pricing →</a></div>
+  <a href="https://app.foodsafeiq.com/?signup=1" class="btn-primary">Start Free Trial &rarr;</a>
+  <div class="cta-links"><a href="/pricing">View full pricing &rarr;</a></div>
 </section>
 
 <footer>
@@ -268,7 +348,7 @@ footer{background:#080f18;padding:32px 5%;display:flex;align-items:center;justif
     <a href="/privacy">Privacy Policy</a>
     <a href="/terms">Terms of Service</a>
   </div>
-  <div class="footer-copy">© 2026 FoodSafe IQ · A Bullard Consulting Services product. All rights reserved.</div>
+  <div class="footer-copy">&copy; 2026 FoodSafe IQ &middot; A Bullard Consulting Services product. All rights reserved.</div>
 </footer>
 
 </body>
